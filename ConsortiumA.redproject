@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<project:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:project="dk.dtu.imm.red.core.project" name="ConsortiumA.redproject" timeCreated="2015-11-06T13:12:52.143+0100" lastModified="2015-11-06T13:19:06.854+0100" uniqueID="20f846ff-9e37-4968-a298-f29bb21914c7">
+  <creator name="" timeCreated="2015-11-06T13:12:52.143+0100" uniqueID="8ea9b310-2b61-418b-99cc-49d8befa1572" id="" email="" initials="">
+    <cost name="Cost" kind=""/>
+    <benefit name="Cost" kind=""/>
+  </creator>
+  <cost name="Cost" kind=""/>
+  <benefit name="Cost" kind=""/>
+  <Listofopenedfilesinproject href="Goals.red#7910c8ae-e451-4372-af93-d59448c2bab2"/>
+  <Listofopenedfilesinproject href="Stakeholders.red#485f8347-a550-438a-9ff1-c1bb2710eb01"/>
+  <Listofopenedfilesinproject href="Vision.red#2080406c-3e01-49b2-a595-90c2ffef7259"/>
+  <Listofopenedfilesinproject href="Personas.red#42ef8f5b-3114-4d02-b6ac-58757164cee9"/>
+  <Listofopenedfilesinproject href="User%20Stories.red#4039a052-8941-4521-bb72-4bc0a078693f"/>
+  <Listofopenedfilesinproject href="Requirements.red#f4470691-693f-4557-825f-06d69ca4969b"/>
+  <Listofopenedfilesinproject href="Actors.red#fcb978f2-f7c1-4ddb-a64a-19fd948233f6"/>
+  <Listofopenedfilesinproject href="Use%20Cases.red#434f6223-ca8a-46a7-8de6-2d806ae7ee8b"/>
+  <Listofopenedfilesinproject href="Diagrams.red#83e941e0-57e4-4e2e-abff-e7d3ee88673a"/>
+  <Listofopenedfilesinproject href="Glossary.red#92998751-f743-446b-9d85-3f3dd1932161"/>
+</project:Project>
