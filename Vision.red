@@ -6,7 +6,7 @@
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Vission" timeCreated="2015-11-06T13:19:54.985+0100" lastModified="2015-11-06T13:26:02.388+0100" uniqueID="500aae33-199a-4e0a-8153-e51128f7fa3e">
+  <contents xsi:type="folder:Folder" name="Visions" timeCreated="2015-11-06T13:19:54.985+0100" lastModified="2015-11-06T13:26:02.388+0100" uniqueID="500aae33-199a-4e0a-8153-e51128f7fa3e">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="vision:Vision" label="EEPR" name="The European Electronic Patient Records" description="" timeCreated="2015-11-06T13:26:02.358+0100" lastModified="2015-11-06T13:26:02.388+0100" uniqueID="c34b407c-275f-4619-a1f6-771dabf4aecf">

@@ -6,7 +6,7 @@
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Glossarise" timeCreated="2015-11-06T13:23:15.093+0100" lastModified="2015-11-06T13:23:15.156+0100" uniqueID="0e893b12-d313-4d8d-abf4-88835032bb1c">
+  <contents xsi:type="folder:Folder" name="Glossaries" timeCreated="2015-11-06T13:23:15.093+0100" lastModified="2015-11-06T13:23:15.156+0100" uniqueID="0e893b12-d313-4d8d-abf4-88835032bb1c">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </contents>
