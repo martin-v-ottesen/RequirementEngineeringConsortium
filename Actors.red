@@ -1,14 +1,97 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-11-06T13:18:18.545+0100" lastModified="2015-11-24T11:34:17.024+0100" uniqueID="fcb978f2-f7c1-4ddb-a64a-19fd948233f6">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-11-06T13:18:18.545+0100" lastModified="2015-11-24T23:14:04.204+0100" uniqueID="fcb978f2-f7c1-4ddb-a64a-19fd948233f6">
   <creator name="" timeCreated="2015-11-06T13:18:18.545+0100" uniqueID="0ebba6bf-a7d9-4e73-bd66-e3327450ae01" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-11-06T13:21:48.574+0100" lastModified="2015-11-24T09:06:31.184+0100" uniqueID="13475cf9-3f3f-4844-a27d-59b3cf9ffc6b">
+  <contents xsi:type="folder:Folder" name="Actors" timeCreated="2015-11-06T13:21:48.574+0100" lastModified="2015-11-24T23:13:22.385+0100" uniqueID="13475cf9-3f3f-4844-a27d-59b3cf9ffc6b">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
+    <contents xsi:type="configuration:Actor" iconURI="icons/system.png" label="AC5" name="EPJ database" elementKind="system" description="" timeCreated="2015-11-03T10:53:35.779+0100" lastModified="2015-11-24T23:13:22.385+0100" uniqueID="0afc9ad9-23e6-453d-9f6c-2b404139244b" workPackage="" code="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-03T10:53:35.779+0100" uniqueID="ebea401a-b264-4e8c-b797-27cdb51b3e38" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-03T10:54:03.555+0100" uniqueID="047a76b1-163a-4e1c-93b0-5accd5ecc7e4">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="AC4" name="Emergency personel" elementKind="group" partOf="7f7a5fa7-6062-4d7e-8c20-2cb57bd728d4" description="Ambulance staff and hospital medical personel excl. doctors" timeCreated="2015-11-03T09:54:18.032+0100" lastModified="2015-11-24T23:13:22.343+0100" uniqueID="5ae30bb9-14df-464b-a892-05e730a6d694" workPackage="" code="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-03T09:54:18.032+0100" uniqueID="158971d8-4e2b-4785-bc18-e691d867af22" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-03T09:54:24.390+0100" uniqueID="b20b7cc5-7367-4104-8f12-0cc055e59765">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <personaRelations>
+        <persona href="Requirements.red#8f281ddf-83ce-419a-8def-05da1c3a54b5"/>
+      </personaRelations>
+      <personaRelations>
+        <persona href="Requirements.red#e6c2f186-ed33-4d97-8902-99d0b21530d3"/>
+      </personaRelations>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="AC3" name="Supporter" elementKind="person" description="" timeCreated="2015-11-24T21:52:48.747+0100" lastModified="2015-11-24T23:13:22.303+0100" uniqueID="fce1da56-1f6a-4902-b59a-e57634317dce" workPackage="" code="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-24T21:52:48.747+0100" uniqueID="97c1f582-cf48-4cbb-849f-3cf9bde9fe15" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-24T21:52:55.394+0100" uniqueID="a09c3c7e-749d-4777-a6b5-9c28d542c11e">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="AC2" name="Doctor" elementKind="person" subtypeOf="5ae30bb9-14df-464b-a892-05e730a6d694" description="" timeCreated="2015-11-03T09:51:19.855+0100" lastModified="2015-11-24T23:13:22.264+0100" uniqueID="9ca3b439-0655-4428-8d21-e1bdd0991f06" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-03T09:51:19.855+0100" uniqueID="ef254b9a-519d-49e0-8d81-5701489b2343" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-03T09:53:16.904+0100" uniqueID="3714cf8f-2837-4e8e-b965-7e6235eec86d">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <personaRelations>
+        <persona href="Requirements.red#1ec94900-0e50-4cb1-bdd5-6620176ed34d"/>
+      </personaRelations>
+      <personaRelations>
+        <persona href="Requirements.red#b3c88156-31bc-4d2f-8549-4609d5d0a725"/>
+      </personaRelations>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="AC1" name="Citizen" elementKind="person" description="Citizens of the EU" timeCreated="2015-11-03T09:48:08.914+0100" lastModified="2015-11-24T23:13:22.217+0100" uniqueID="7f7a5fa7-6062-4d7e-8c20-2cb57bd728d4" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-03T09:48:08.914+0100" uniqueID="a48131ee-9e12-4e88-b6bb-25b2fd703969" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-03T09:48:37.959+0100" uniqueID="e231ddba-db7a-4b6d-8a28-5444cef7351e">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <personaRelations>
+        <persona href="Requirements.red#7c43bed7-52fa-4bf4-b4a1-a119018cf8e5"/>
+      </personaRelations>
+    </contents>
     <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="HOS-R" name="Relatives" elementKind="role" description="" timeCreated="2015-11-24T09:00:46.666+0100" lastModified="2015-11-24T09:03:14.672+0100" uniqueID="77c09ad6-3cf7-4bd8-830c-3fccb4feb361" workPackage="" code="">
       <creator name="" timeCreated="2015-11-24T09:00:46.666+0100" uniqueID="8137ef06-e6d3-4ed9-adbe-367f5c601000" id="" email="" initials="">
         <cost name="Cost" kind=""/>
