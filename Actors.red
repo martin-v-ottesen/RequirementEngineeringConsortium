@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-11-06T13:18:18.545+0100" lastModified="2015-11-24T09:06:31.206+0100" uniqueID="fcb978f2-f7c1-4ddb-a64a-19fd948233f6">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-11-06T13:18:18.545+0100" lastModified="2015-11-24T11:34:17.024+0100" uniqueID="fcb978f2-f7c1-4ddb-a64a-19fd948233f6">
   <creator name="" timeCreated="2015-11-06T13:18:18.545+0100" uniqueID="0ebba6bf-a7d9-4e73-bd66-e3327450ae01" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -85,7 +85,7 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="HOS-MP" name="Medical Professionals" elementKind="group" description="" timeCreated="2015-11-13T16:18:28.978+0100" lastModified="2015-11-24T09:03:09.629+0100" uniqueID="8af4b16f-d2ce-41e5-ab85-3728a9fe0d4c" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="HOS-MP" name="MP" elementKind="group" description="" timeCreated="2015-11-13T16:18:28.978+0100" lastModified="2015-11-24T09:03:09.629+0100" uniqueID="8af4b16f-d2ce-41e5-ab85-3728a9fe0d4c" workPackage="" code="">
       <creator name="" timeCreated="2015-11-13T16:18:28.978+0100" uniqueID="ac94f4c0-9e1f-4793-96df-4ebffe7b9bf4" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -98,7 +98,7 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" iconURI="icons/organisation.png" label="HOS-ECC" name="Emergency Call Center (A3)" elementKind="organisation" description="" timeCreated="2015-11-24T09:02:33.317+0100" lastModified="2015-11-24T09:02:45.883+0100" uniqueID="baf13368-fd50-4c48-abd9-36776adb2e36" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/organisation.png" label="HOS-ECC" name="ECC (A3)" elementKind="organisation" description="" timeCreated="2015-11-24T09:02:33.317+0100" lastModified="2015-11-24T09:02:45.883+0100" uniqueID="baf13368-fd50-4c48-abd9-36776adb2e36" workPackage="" code="">
       <creator name="" timeCreated="2015-11-24T09:02:33.317+0100" uniqueID="74f63dcc-7dd2-4deb-a41d-9e1ce1301083" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
