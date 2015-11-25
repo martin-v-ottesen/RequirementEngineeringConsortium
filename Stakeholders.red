@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-24T23:14:04.200+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T13:59:07.571+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
   <creator name="" timeCreated="2015-10-01T22:47:56.548+0200" uniqueID="1cd0d1b4-af8a-4c5e-a565-2460dcc1d0f0" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -304,13 +304,13 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="EENA discuss and promote 112 systems and operations throughout EU. They have wide knowledge of PSAP’s and their processes, and want influence OS design."/>
+        <fragments xsi:type="text:FormattedText" text="EENA discuss and promote 112 systems and operations throughout EU. They have wide knowledge of PSAP&#xfffd;&#xfffd;&#xfffd;s and their processes, and want influence OS design."/>
       </stake>
       <engagement>
         <fragments xsi:type="text:FormattedText" text="They should be pleased because of their high power of the system. Their high knowlegde in of area is acknowledgeable and it is very likely the system improves from pleasing them."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they as a group do not interact with the system in any way. Some members might be operators, but they are a different stakeholder.&lt;br>Power is 2 because they are an recognized association, pertially of operators. Today they have some say in how procedures at PSAP’s are defined.&lt;br>Urgency is 3 because they are part of the design decisions made.&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they as a group do not interact with the system in any way. Some members might be operators, but they are a different stakeholder.&lt;br>Power is 2 because they are an recognized association, pertially of operators. Today they have some say in how procedures at PSAP&#xfffd;&#xfffd;&#xfffd;s are defined.&lt;br>Urgency is 3 because they are part of the design decisions made.&lt;br>"/>
       </longDescription>
     </contents>
     <contents xsi:type="stakeholder:Stakeholder" label="OS-REGMUN" name="Regions/municipalities" elementKind="External" description="The regions and municipalities the system is deployed within. It is common that PSAP's are subject to rules and administration of regions or municipalities. This means there can actually be different rules and budgets for different PSAP's in the same country." timeCreated="2015-10-01T22:51:20.469+0200" lastModified="2015-11-18T13:53:23.056+0100" uniqueID="a6d9c621-d2b0-4095-bd3e-7e4e6dda128f" workPackage="" power="3" importance="2">

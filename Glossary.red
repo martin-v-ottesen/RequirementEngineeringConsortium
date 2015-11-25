@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:glossary="dk.dtu.imm.red.glossary" xmlns:text="dk.dtu.imm.red.core.text" name="Glossary.red" timeCreated="2015-10-30T09:19:55.295+0100" lastModified="2015-11-24T23:14:04.211+0100" uniqueID="06c68bd7-b95e-40c5-b8fd-283e1e4de987">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:glossary="dk.dtu.imm.red.glossary" xmlns:text="dk.dtu.imm.red.core.text" name="Glossary.red" timeCreated="2015-10-30T09:19:55.295+0100" lastModified="2015-11-25T13:59:07.617+0100" uniqueID="06c68bd7-b95e-40c5-b8fd-283e1e4de987">
   <creator name="" timeCreated="2015-10-30T09:19:55.295+0100" uniqueID="399bd13b-4e6d-420f-a061-efe42b6e5064" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -32,9 +32,6 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <synonyms>The System</synonyms>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="OS (Operator System) is the overall system, enabling operators to perform work. The system features several components each responsible for different areas, and interacting with each other.&lt;br&gt;&lt;br&gt;Generally speaking, OS will connect citizens calling an emergency number with a operator. Citizens can be anywhere in the EU, and they will be connected to their nearest available PSAP. The connection itself is not handled by OS, but by external network service providers. OS deals with the complexities of redirecting calls to the best suited operator, and even handles scenarios where PSAP’s are overloaded and redirection is necessary. OS assists operators in through the entire call. Based on the available data when a call comes in, it will automatically pull EPJ information about the caller. Locations with accurate precision of the citizen can be found as well. If resource dispatching, like ambulances or police cars is needed, operators can use OS for that as well.&lt;br&gt;&lt;br&gt;Any action the operator performs is stored securely for later evaluation, along with a full recording of the call. Besides being a legal requirement, this also allows for call handling optimization.&lt;br&gt;&lt;br&gt;OS and its different subcomponents are responsible for the processes between receiving a call to sending the obtained emergency information to the dispatched resource. It relies on network service providers for carrying calls with a high quality level, along with other external systems.&lt;br&gt;&lt;br&gt;Each PSAP operates its own instance of OS, they will communicate with each other - especially for call redirection. Any relevant information is stored at the Central Data Registry, allowing for optimal call handling anywhere within EU."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="2" name="OS-APP" elementKind="technical_system" description="Operator System App&#xA;It refers to a mobile application that people calling the emergency line can use. This app is not in tier 3 scope, and should ideally be designed by tier 0." timeCreated="2015-10-23T15:08:18.318+0200" lastModified="2015-11-20T09:29:03.847+0100" uniqueID="26aa299b-b577-4bc0-9795-3265a9db8d3a" workPackage="">
       <commentlist/>
@@ -50,9 +47,6 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <synonyms>emergency app</synonyms>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="OS seeks to take advantage of the new information technology. One way is by allowing to enrich calls with additional information. EENA has identified the operator information collection phase as a current bottleneck, and this feature tries to deal with that. Even though OS-APP fall into tier 0 domain, we briefly mention some of the enriched data possibilities OS could support.&lt;br&gt;Smartphones today are capable of gathering quite accurate locations very quickly. In situations where a fixed address is hard to obtain, e.g. traffic accidents, it is much faster and accurate to simply have GPS coordinates. OS-APP could easily obtain such information while launching a regular call to the PSAP, reducing the operator data collection bottleneck. Additionally, citizens could store their social security information, chronic diseases or allergies as well. They could then be redirected to an operator with specialities in those areas, possibly receiving better help.&lt;br&gt;&lt;br&gt;Technically, OS-APP will launch a regular emergency call, and then in the background fetch location and then send all the obtained data to a OS-RCI web service. A certain delay is expected, but the system can handle that the enriched call data arrives shortly after the call is picked up. It is important to know that OS-APP is an optional feature on top of the existing emergency procedures, in no way is it a requirement for receiving help."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="3" name="EH-CDR" elementKind="technical_system" description="eHealth Central Data Registry&#xA;This is a central application and datastorage facility for the whole E-health project. It contrains several applications, such as the Patient Journal (EH-EPJ), the Documentation Database (EH-DOCDB) and the Operator/Doctor Management System (EH-OMS)." timeCreated="2015-10-23T15:13:07.836+0200" lastModified="2015-11-20T09:29:10.877+0100" uniqueID="d812ac99-7e73-4c84-97cd-55b0032bc1b4" workPackage="">
       <commentlist/>
@@ -67,9 +61,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="eHealth Central Data Registry is a system comprised of several components, aimed at providing common functionality for the complete eHealth application spectrum. EH-CDR is shared between every tier. The Electronic Patient Journal lives here among components. The Central Data Registry is physically located at one place, but the components are accessed individually. Therefore it is simply a common name its components."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="4" name="EH-EPJ" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="eHealth Electronic Patient Journal&#xA;A single source of patient medical records. A EU wide central facility that stores all medical records of patients." timeCreated="2015-10-23T15:22:03.289+0200" lastModified="2015-11-20T09:31:10.298+0100" uniqueID="8c9e05f9-44e4-4b20-885b-037eaa971c39" workPackage="">
       <commentlist/>
@@ -85,9 +76,6 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <synonyms>EPJ</synonyms>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="eHealth Electronic Patient Journal stores all medical records of EU citizens. Information like treatment plans, x-ray results and even paramedic treatments during emergency responses is stored here, along with all other medical records. It is a component of EH-CDR, and so it is available across entire EU. This enables doctors or in fact any medical personnel to retrieve and give their treatment on the same basis, even if you are in need in another EU country. This obviously imposes large privacy concerns, which are mostly dealt with by storing access logs. Anyone reading or manipulating data will be logged, and can then later be questioned if that action was unjustified. It is always possible to relate a log entry directly to a personal user account. Logs are stored in EH-DOCDB, accounts in EH-OMS.&lt;br&gt;&lt;br&gt;Since it stores massive amounts of data structured, it is a fine basis for scientific studies. Therefore it comes with an anonymized data replica, that scientists can gain access to."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="5" name="EH-DOCDB" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="eHealth Documentation Database&#xA;The documentation database holds logs and provides information about every query to a patients EPJ, such as who accesses the file, when and from where. " timeCreated="2015-10-23T15:24:07.837+0200" lastModified="2015-11-20T09:31:50.842+0100" uniqueID="c6dafad1-67e5-408e-9af2-aaa7a9c6996e" workPackage="">
       <commentlist/>
@@ -102,9 +90,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="eHealth Documentation Database exists for logging requirements. If any user account accesses medical records of any patient, EH-DOCDB will store a log of this access. This will ensure a degree of transparency, as it can always be traced who accessed citizens files. It is not possible to edit the logs, nor delete them. Medical staff can be questioned and possible sanctioned on basis of these logs, and so they also serve the purpose of preventing any unnecessary reads in the first place."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="6" name="EH-OMS" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="eHealth Operator/Doctor Management System&#xA;This management system centrally stores information about system users, their skills and their work schedules." timeCreated="2015-10-23T15:25:50.179+0200" lastModified="2015-11-20T09:47:03.405+0100" uniqueID="04bc12e6-8fae-4884-b314-0d6b4fcc28d7" workPackage="">
       <commentlist/>
@@ -119,9 +104,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="eHealth Operator/Doctor Management System is a central place for storing user accounts, their rights and information. Many doctors or other medical personnel work at different locations. Enabling them to do their job and use the underlying IT systems, requires their account information to be retrievable from any eHealth enabled facility. EH-OMS enables exactly that. It can verify logins, manage meta data like PSAP operators and their skill sets, manage work schedules and do statistics on them as well. Some components of the eHealth system may require local EH-OMS replicas, and so EH-OMS also allows for such setups with accompanying synchronization between."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="7" name="EMS" elementKind="domain_term" description="Emergency Medical Services" timeCreated="2015-10-23T15:26:31.212+0200" lastModified="2015-11-20T09:46:52.020+0100" uniqueID="86eefca7-9bf9-4957-8fce-725e8d012bf0" workPackage="">
       <commentlist/>
@@ -150,9 +132,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="OS Dispatch Resource is a generic component for dispatching any type of resource. This could be either medical vehicles, fire trucks or police. Any dispatch will be accompanied by a MPDS code that details the nature of the call. This could be domestic disturbances, traffic accident or the like. A location for responding is also available. If possible, preferably GPS coordinates, otherwise a distinct address. All information obtained by the responding operator will likewise be sent to the dispatched resource. All this data is part of an OS-CASE, and this entity is what is sent to the “Tier 2 Call-center communication” interface.&lt;br&gt;&lt;br&gt;In addition to dispatching a resource, OS-DR is also capable of tracking the resource afterwards. This allows the operator to provide better information to the distressed citizen. Should it become necessary, the operator can also establish a call to the resource through OS-DR. This could become necessary in situations where location is incorrect or inaccurate."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="9" name="OS-I" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Interface&#xA;This interface within the Operator System gives control and visualizes information to the operator." timeCreated="2015-10-23T15:33:39.485+0200" lastModified="2015-11-20T09:50:33.582+0100" uniqueID="359fc94f-0675-43b4-a662-78f16062c740" workPackage="">
       <commentlist/>
@@ -167,9 +146,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="OS Interface is one of the most complex system components in OS. It is the interface for operators, which they perform all tasks through. OS-I connects to multiple other components, including external ones. With OS-I, operators can create OS-CASE entries when handling calls. During calls, they can manage them(set on hold, disconnect, redial, see caller information). Based on the available caller information, they can also quickly retrieve any EH-EPJ medical records on them. This automatic data collection is valuable in reducing the data collection bottleneck. By reading any relevant EPJ medical records, operators can quickly form an individual basis for their decisions on the call. If this automatic data collection must happen automatically, caller meta data like social security number, GPS coordinates or enriched call data must be made available by OS-RCI. This is the case when citizens call using OS-APP. When calls are made without the app, OS-RCI retrieves and forwards the best possible data. OS-I functions correctly with or without this extra ordinary data. It can even be made available later during a call, in case of large data query latencies.&lt;br&gt;Whatever an operator says or does when handling calls, will be recorded/logged by OS-I, and forwarded to OS-DOCDB. This happens automatically and in the background without disturbing the call. Through OS-I and then OS-DR, operators can dispatch resources, on the background that the newly created OS-CASE entry provides. Should a need for resource communication arise, operators can call resources through OS-I and OS-DR. OS-I can then manage both the call with the resource and the distressed citizen in a controlled manner.&lt;br&gt;&lt;br&gt;Lastly, operators will use OS-I to login and gain access to the complete OS system when they start their work hours."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="10" name="OS-OMS" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Management System&#xA;This system within the Operator System manages operators logins and their skills." timeCreated="2015-10-23T15:36:55.137+0200" lastModified="2015-11-20T09:54:28.231+0100" uniqueID="d4a79c46-62ef-4fb0-9c34-61a66dc52b45" workPackage="">
       <commentlist/>
@@ -184,9 +160,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="OS has methods for directing enriched calls to the best suited available operator. To do this, operator skills must be stored in a structured way. OS can also dispatch resources and retrieve sensitive personal information, thus the need of authorization protection. The data basis for both these features are stored in OS Operator Management System. Any graphical access goes through OS-I, but the data is stored and maintained through OS-OMS. User accounts can be created, updated, deleted and read, as can operator skills.&lt;br&gt;&lt;br&gt;As operators must be able to work at different PSAPs, their skills and user accounts must be available there as well. This is implemented by synchronizing to EH-OMS. OS-OMS is then simply a local replica, kept for ensuring fast response times. When calls enter, the algorithm for deciding on an operator must be quick, it cannot be caught up by any latency that could arise by querying EH-OMS directly."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="11" name="OS-RCI" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Recieve Call Interface&#xA;This interface lets the Operator System recieve calls and redirect them accordingly if there is any enriched data available." timeCreated="2015-10-23T15:39:26.452+0200" lastModified="2015-11-20T09:55:04.307+0100" uniqueID="e1d0e087-f484-4d5a-8784-e9604a6ab715" workPackage="">
       <commentlist/>
@@ -201,9 +174,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="OS Receive Call Interface is one of the most complex system components in OS. It handles any redirection of calls to operators, along with matching any received enriched call data. When citizens call the emergency services, OS-RCI handles the call. Depending on the available operator situation, different handling happens. If no operators are available, it is considered to redirect the call to another PSAP. This is most likely if another answering point is close to the call location. Calls could also be placed in a queue, where they will wait. If multiple operators are available, along with enriched call data, OS-RCI can redirect the call to the best suited of these operators. If the call is not enriched, or if there is only one operator available, the call with be redirected straight forward.&lt;br&gt;&lt;br&gt;Calls are redirected to an OS-I instance of the selected operator. Through OS-I and OS-RCI the operator will manage the call."/>
-        </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="12" name="OS-DOCDB" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Documentation Database&#xA;Stores emergency call recordings and operator inputs for documentation purposes" timeCreated="2015-10-23T15:46:55.992+0200" lastModified="2015-11-20T09:55:56.840+0100" uniqueID="84221294-2897-46f9-af70-824a74c27c22" workPackage="">
       <commentlist/>
@@ -218,9 +188,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="OS Documentation Database exists for logging requirements. Entire calls are recorded and all operator actions are logged. This data is stored in OS-DOCDB. By storing such data structured, it can easily be retrieved for later evaluation. Evaluation could be for optimizing procedures, or forensics in case of a legal matter. It is generally not possible to delete or manipulate any data stored in OS-DOCDB, but data is only stored for as long as legally required."/>
-      </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="13" name="PSAP" elementKind="domain_term" description="Public Safety Answering Point&#xA;A facility where operators answer emergency calls and dispatch resources from." timeCreated="2015-10-30T09:36:08.851+0100" lastModified="2015-11-20T10:07:28.498+0100" uniqueID="316e46ea-115e-4838-8ca5-10e76be3e291" workPackage="">
       <commentlist/>
@@ -256,8 +223,6 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
-      <relatedBy xsi:type="relationship:ElementReference" href="Requirements.red#eac33a6d-45ad-439c-aa0e-2b1e500a16bf"/>
-      <relatedBy xsi:type="relationship:ElementReference" href="Requirements.red#5a5f8328-d64d-4fcc-9e7f-8335b7b3189a"/>
       <changeList/>
       <responsibleUser name="Troels" timeCreated="2015-11-18T10:18:09.452+0100" uniqueID="134951a2-8aaf-4c1c-9c36-8d3b6510a92f">
         <cost name="Cost" kind=""/>
@@ -294,9 +259,6 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <discussion>
-          <fragments xsi:type="text:FormattedText" text="Enriched call is the term for incoming calls to PSAPs that are accompanied by additional citizen metadata. This data is entered or fetched by OS-APP and could be GPS coordinates, social security number or information about chronic diseases or allergies, but is not limited to that. Data is delivered through a data connection, to a webservice in OS-RCI. Enriched calls are in contrast to regular calls, without any such extraordinary data."/>
-      </discussion>
     </contents>
     <contents xsi:type="glossary:GlossaryEntry" label="18" name="MPDS code" elementKind="technology_term" description="Medical Priority Dispatch System code&#xA;This is a code that defines the nature of a emergency call. It is used for quick explaining for dispatchable resources." timeCreated="2015-11-20T09:45:34.393+0100" lastModified="2015-11-20T10:09:58.966+0100" uniqueID="bcb74e51-1b90-478e-984a-cea02d9f0337" workPackage="">
       <commentlist/>
