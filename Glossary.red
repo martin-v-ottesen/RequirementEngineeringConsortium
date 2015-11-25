@@ -18,35 +18,43 @@
     </responsibleUser>
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="glossary:GlossaryEntry" label="OS" name="Operator System (OS)" elementKind="technical_system" description="OS (Operator System) is the general name for the system used by PSAP operators, responding to emergency calls. " timeCreated="2015-10-23T15:04:40.754+0200" lastModified="2015-11-11T14:41:58.432+0100" uniqueID="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="1" name="OS" elementKind="technical_system" description="Operator System&#xA;It is the general name for the system used by PSAP operators, responding to emergency calls. " timeCreated="2015-10-23T15:04:40.754+0200" lastModified="2015-11-20T09:28:58.103+0100" uniqueID="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:04:40.842+0200" uniqueID="e546b53f-198b-480d-b930-39f8c962942c" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-10-23T15:04:40.842+0200" uniqueID="e546b53f-198b-480d-b930-39f8c962942c" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T09:57:23.348+0100" uniqueID="718fe40c-d107-4fef-ad7e-f444b998836c">
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T09:57:23.348+0100" uniqueID="718fe40c-d107-4fef-ad7e-f444b998836c">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <synonyms>The System</synonyms>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="OS (Operator System) is the overall system, enabling operators to perform work. The system features several components each responsible for different areas, and interacting with each other.&lt;br&gt;&lt;br&gt;Generally speaking, OS will connect citizens calling an emergency number with a operator. Citizens can be anywhere in the EU, and they will be connected to their nearest available PSAP. The connection itself is not handled by OS, but by external network service providers. OS deals with the complexities of redirecting calls to the best suited operator, and even handles scenarios where PSAP’s are overloaded and redirection is necessary. OS assists operators in through the entire call. Based on the available data when a call comes in, it will automatically pull EPJ information about the caller. Locations with accurate precision of the citizen can be found as well. If resource dispatching, like ambulances or police cars is needed, operators can use OS for that as well.&lt;br&gt;&lt;br&gt;Any action the operator performs is stored securely for later evaluation, along with a full recording of the call. Besides being a legal requirement, this also allows for call handling optimization.&lt;br&gt;&lt;br&gt;OS and its different subcomponents are responsible for the processes between receiving a call to sending the obtained emergency information to the dispatched resource. It relies on network service providers for carrying calls with a high quality level, along with other external systems.&lt;br&gt;&lt;br&gt;Each PSAP operates its own instance of OS, they will communicate with each other - especially for call redirection. Any relevant information is stored at the Central Data Registry, allowing for optimal call handling anywhere within EU."/>
+        </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="OS-APP" name="App" elementKind="technical_system" description="App/OS-APP refers to a mobile application that people calling the emergency line can use." timeCreated="2015-10-23T15:08:18.318+0200" lastModified="2015-11-11T12:21:24.573+0100" uniqueID="26aa299b-b577-4bc0-9795-3265a9db8d3a" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="2" name="OS-APP" elementKind="technical_system" description="Operator System App&#xA;It refers to a mobile application that people calling the emergency line can use. This app is not in tier 3 scope, and should ideally be designed by tier 0." timeCreated="2015-10-23T15:08:18.318+0200" lastModified="2015-11-20T09:29:03.847+0100" uniqueID="26aa299b-b577-4bc0-9795-3265a9db8d3a" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:08:18.390+0200" uniqueID="b1cc8c03-f58f-49b0-a5fd-c7142ff3a7a1" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-10-23T15:08:18.390+0200" uniqueID="b1cc8c03-f58f-49b0-a5fd-c7142ff3a7a1" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-11-11T12:05:20.398+0100" uniqueID="5be13d79-a45f-4ad2-8f3d-0de99f10297f">
+      <responsibleUser name="Andreas" timeCreated="2015-11-11T12:05:20.398+0100" uniqueID="5be13d79-a45f-4ad2-8f3d-0de99f10297f">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <synonyms>emergency app</synonyms>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="OS seeks to take advantage of the new information technology. One way is by allowing to enrich calls with additional information. EENA has identified the operator information collection phase as a current bottleneck, and this feature tries to deal with that. Even though OS-APP fall into tier 0 domain, we briefly mention some of the enriched data possibilities OS could support.&lt;br&gt;Smartphones today are capable of gathering quite accurate locations very quickly. In situations where a fixed address is hard to obtain, e.g. traffic accidents, it is much faster and accurate to simply have GPS coordinates. OS-APP could easily obtain such information while launching a regular call to the PSAP, reducing the operator data collection bottleneck. Additionally, citizens could store their social security information, chronic diseases or allergies as well. They could then be redirected to an operator with specialities in those areas, possibly receiving better help.&lt;br&gt;&lt;br&gt;Technically, OS-APP will launch a regular emergency call, and then in the background fetch location and then send all the obtained data to a OS-RCI web service. A certain delay is expected, but the system can handle that the enriched call data arrives shortly after the call is picked up. It is important to know that OS-APP is an optional feature on top of the existing emergency procedures, in no way is it a requirement for receiving help."/>
+        </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="EH-CDR" name="Central Data Registry" elementKind="technical_system" description="This is a central application and datastorage facility for the whole E-health project. It contrains several applications, such as the Patient Journal (EH-EPJ), the Documentation Database (EH-DOCDB) and the Operator/Doctor Management System (EH-OMS)." timeCreated="2015-10-23T15:13:07.836+0200" lastModified="2015-11-11T12:28:14.569+0100" uniqueID="d812ac99-7e73-4c84-97cd-55b0032bc1b4" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="3" name="EH-CDR" elementKind="technical_system" description="eHealth Central Data Registry&#xA;This is a central application and datastorage facility for the whole E-health project. It contrains several applications, such as the Patient Journal (EH-EPJ), the Documentation Database (EH-DOCDB) and the Operator/Doctor Management System (EH-OMS)." timeCreated="2015-10-23T15:13:07.836+0200" lastModified="2015-11-20T09:29:10.877+0100" uniqueID="d812ac99-7e73-4c84-97cd-55b0032bc1b4" workPackage="">
       <commentlist/>
       <creator name="" timeCreated="2015-10-23T15:13:07.900+0200" uniqueID="48cc58ad-dee1-496f-b03b-ee5cf1425fd6" id="" email="" initials="">
         <cost name="Cost" kind=""/>
@@ -59,120 +67,145 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="eHealth Central Data Registry is a system comprised of several components, aimed at providing common functionality for the complete eHealth application spectrum. EH-CDR is shared between every tier. The Electronic Patient Journal lives here among components. The Central Data Registry is physically located at one place, but the components are accessed individually. Therefore it is simply a common name its components."/>
+        </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="EH-EPJ" name="Electronic Patient Journal" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="A single source of patient medical records." timeCreated="2015-10-23T15:22:03.289+0200" lastModified="2015-11-11T12:38:40.760+0100" uniqueID="8c9e05f9-44e4-4b20-885b-037eaa971c39" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="4" name="EH-EPJ" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="eHealth Electronic Patient Journal&#xA;A single source of patient medical records. A EU wide central facility that stores all medical records of patients." timeCreated="2015-10-23T15:22:03.289+0200" lastModified="2015-11-20T09:31:10.298+0100" uniqueID="8c9e05f9-44e4-4b20-885b-037eaa971c39" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:22:03.357+0200" uniqueID="7b85060f-c435-4675-b99b-a20d1c92cfa1" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-10-23T15:22:03.357+0200" uniqueID="7b85060f-c435-4675-b99b-a20d1c92cfa1" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T09:57:39.984+0100" uniqueID="2721e8c4-ac2b-42da-bd1a-c60c23976867">
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T09:57:39.984+0100" uniqueID="2721e8c4-ac2b-42da-bd1a-c60c23976867">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <synonyms>EPJ</synonyms>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="eHealth Electronic Patient Journal stores all medical records of EU citizens. Information like treatment plans, x-ray results and even paramedic treatments during emergency responses is stored here, along with all other medical records. It is a component of EH-CDR, and so it is available across entire EU. This enables doctors or in fact any medical personnel to retrieve and give their treatment on the same basis, even if you are in need in another EU country. This obviously imposes large privacy concerns, which are mostly dealt with by storing access logs. Anyone reading or manipulating data will be logged, and can then later be questioned if that action was unjustified. It is always possible to relate a log entry directly to a personal user account. Logs are stored in EH-DOCDB, accounts in EH-OMS.&lt;br&gt;&lt;br&gt;Since it stores massive amounts of data structured, it is a fine basis for scientific studies. Therefore it comes with an anonymized data replica, that scientists can gain access to."/>
+        </discussion>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="5" name="EH-DOCDB" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="eHealth Documentation Database&#xA;The documentation database holds logs and provides information about every query to a patients EPJ, such as who accesses the file, when and from where. " timeCreated="2015-10-23T15:24:07.837+0200" lastModified="2015-11-20T09:31:50.842+0100" uniqueID="c6dafad1-67e5-408e-9af2-aaa7a9c6996e" workPackage="">
+      <commentlist/>
+      <creator name="Andreas" timeCreated="2015-10-23T15:24:07.889+0200" uniqueID="ce1fba4c-4b5b-415f-a327-52705be28ff0" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T09:57:51.478+0100" uniqueID="d2da8cae-94f9-4851-b927-d5b7ff0e48b3">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="eHealth Documentation Database exists for logging requirements. If any user account accesses medical records of any patient, EH-DOCDB will store a log of this access. This will ensure a degree of transparency, as it can always be traced who accessed citizens files. It is not possible to edit the logs, nor delete them. Medical staff can be questioned and possible sanctioned on basis of these logs, and so they also serve the purpose of preventing any unnecessary reads in the first place."/>
+        </discussion>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="6" name="EH-OMS" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="eHealth Operator/Doctor Management System&#xA;This management system centrally stores information about system users, their skills and their work schedules." timeCreated="2015-10-23T15:25:50.179+0200" lastModified="2015-11-20T09:47:03.405+0100" uniqueID="04bc12e6-8fae-4884-b314-0d6b4fcc28d7" workPackage="">
+      <commentlist/>
+      <creator name="Andreas" timeCreated="2015-10-23T15:25:50.227+0200" uniqueID="58518663-2b26-47ed-a16b-579434d28ea3" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T09:58:04.551+0100" uniqueID="7f322a08-d89e-4142-a901-ff3665d2b058">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="eHealth Operator/Doctor Management System is a central place for storing user accounts, their rights and information. Many doctors or other medical personnel work at different locations. Enabling them to do their job and use the underlying IT systems, requires their account information to be retrievable from any eHealth enabled facility. EH-OMS enables exactly that. It can verify logins, manage meta data like PSAP operators and their skill sets, manage work schedules and do statistics on them as well. Some components of the eHealth system may require local EH-OMS replicas, and so EH-OMS also allows for such setups with accompanying synchronization between."/>
+        </discussion>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="7" name="EMS" elementKind="domain_term" description="Emergency Medical Services" timeCreated="2015-10-23T15:26:31.212+0200" lastModified="2015-11-20T09:46:52.020+0100" uniqueID="86eefca7-9bf9-4957-8fce-725e8d012bf0" workPackage="">
+      <commentlist/>
+      <creator name="Andreas" timeCreated="2015-10-23T15:26:31.264+0200" uniqueID="ca5acfa1-d3bf-4485-9dfd-fc96dadcb4a7" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T10:00:24.441+0100" uniqueID="1ac89edb-21b7-43b9-b9bb-3f5505e09f30">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="EH-DOCDB" name="Documentation DB" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="The documentation database logs and provides information about every query to a patients EPJ, such as who accesses the file, when and from where. " timeCreated="2015-10-23T15:24:07.837+0200" lastModified="2015-11-11T13:48:31.737+0100" uniqueID="c6dafad1-67e5-408e-9af2-aaa7a9c6996e" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="8" name="OS-DR" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Dispatch Resource&#xA;This system component is used for dispatching resources and all this implies, including sending the obtained call information(OS-CASE)." timeCreated="2015-10-23T15:28:18.868+0200" lastModified="2015-11-20T09:50:05.967+0100" uniqueID="19d04afb-418f-47cc-926f-5e0cbe0b6f2b" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:24:07.889+0200" uniqueID="ce1fba4c-4b5b-415f-a327-52705be28ff0" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-10-23T15:28:18.920+0200" uniqueID="ae60f951-8388-4632-b027-5a3c5a80da5e" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T09:57:51.478+0100" uniqueID="d2da8cae-94f9-4851-b927-d5b7ff0e48b3">
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T10:02:20.925+0100" uniqueID="77fed459-f21d-4829-8377-6ebb982bf297">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="OS Dispatch Resource is a generic component for dispatching any type of resource. This could be either medical vehicles, fire trucks or police. Any dispatch will be accompanied by a MPDS code that details the nature of the call. This could be domestic disturbances, traffic accident or the like. A location for responding is also available. If possible, preferably GPS coordinates, otherwise a distinct address. All information obtained by the responding operator will likewise be sent to the dispatched resource. All this data is part of an OS-CASE, and this entity is what is sent to the “Tier 2 Call-center communication” interface.&lt;br&gt;&lt;br&gt;In addition to dispatching a resource, OS-DR is also capable of tracking the resource afterwards. This allows the operator to provide better information to the distressed citizen. Should it become necessary, the operator can also establish a call to the resource through OS-DR. This could become necessary in situations where location is incorrect or inaccurate."/>
+        </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="EH-OMS" name="Operator/Doctor Management System" elementKind="technical_system" partOf="d812ac99-7e73-4c84-97cd-55b0032bc1b4" description="This management system stores information" timeCreated="2015-10-23T15:25:50.179+0200" lastModified="2015-10-30T14:22:24.095+0100" uniqueID="04bc12e6-8fae-4884-b314-0d6b4fcc28d7" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="9" name="OS-I" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Interface&#xA;This interface within the Operator System gives control and visualizes information to the operator." timeCreated="2015-10-23T15:33:39.485+0200" lastModified="2015-11-20T09:50:33.582+0100" uniqueID="359fc94f-0675-43b4-a662-78f16062c740" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:25:50.227+0200" uniqueID="58518663-2b26-47ed-a16b-579434d28ea3" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-10-23T15:33:39.545+0200" uniqueID="1b82bd65-dc8c-4388-950c-e27f66f0cc84" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T09:58:04.551+0100" uniqueID="7f322a08-d89e-4142-a901-ff3665d2b058">
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T10:03:23.178+0100" uniqueID="674dcf1f-05ae-4860-bca1-44b85fe2f209">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="OS Interface is one of the most complex system components in OS. It is the interface for operators, which they perform all tasks through. OS-I connects to multiple other components, including external ones. With OS-I, operators can create OS-CASE entries when handling calls. During calls, they can manage them(set on hold, disconnect, redial, see caller information). Based on the available caller information, they can also quickly retrieve any EH-EPJ medical records on them. This automatic data collection is valuable in reducing the data collection bottleneck. By reading any relevant EPJ medical records, operators can quickly form an individual basis for their decisions on the call. If this automatic data collection must happen automatically, caller meta data like social security number, GPS coordinates or enriched call data must be made available by OS-RCI. This is the case when citizens call using OS-APP. When calls are made without the app, OS-RCI retrieves and forwards the best possible data. OS-I functions correctly with or without this extra ordinary data. It can even be made available later during a call, in case of large data query latencies.&lt;br&gt;Whatever an operator says or does when handling calls, will be recorded/logged by OS-I, and forwarded to OS-DOCDB. This happens automatically and in the background without disturbing the call. Through OS-I and then OS-DR, operators can dispatch resources, on the background that the newly created OS-CASE entry provides. Should a need for resource communication arise, operators can call resources through OS-I and OS-DR. OS-I can then manage both the call with the resource and the distressed citizen in a controlled manner.&lt;br&gt;&lt;br&gt;Lastly, operators will use OS-I to login and gain access to the complete OS system when they start their work hours."/>
+        </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="EMS" name="Emergency Medical Services" elementKind="domain_term" description="" timeCreated="2015-10-23T15:26:31.212+0200" lastModified="2015-10-30T14:22:24.100+0100" uniqueID="86eefca7-9bf9-4957-8fce-725e8d012bf0" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="10" name="OS-OMS" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Management System&#xA;This system within the Operator System manages operators logins and their skills." timeCreated="2015-10-23T15:36:55.137+0200" lastModified="2015-11-20T09:54:28.231+0100" uniqueID="d4a79c46-62ef-4fb0-9c34-61a66dc52b45" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:26:31.264+0200" uniqueID="ca5acfa1-d3bf-4485-9dfd-fc96dadcb4a7" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-10-23T15:36:55.193+0200" uniqueID="2d5676b7-7382-415c-844c-7fd89838ba12" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T10:00:24.441+0100" uniqueID="1ac89edb-21b7-43b9-b9bb-3f5505e09f30">
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T10:21:29.133+0100" uniqueID="802fc94d-ca48-4493-ae60-f440cf63a9f9">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="OS has methods for directing enriched calls to the best suited available operator. To do this, operator skills must be stored in a structured way. OS can also dispatch resources and retrieve sensitive personal information, thus the need of authorization protection. The data basis for both these features are stored in OS Operator Management System. Any graphical access goes through OS-I, but the data is stored and maintained through OS-OMS. User accounts can be created, updated, deleted and read, as can operator skills.&lt;br&gt;&lt;br&gt;As operators must be able to work at different PSAPs, their skills and user accounts must be available there as well. This is implemented by synchronizing to EH-OMS. OS-OMS is then simply a local replica, kept for ensuring fast response times. When calls enter, the algorithm for deciding on an operator must be quick, it cannot be caught up by any latency that could arise by querying EH-OMS directly."/>
+        </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="OS-DR" name="Dispatch Resource" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="This service under the operator dispatches resources" timeCreated="2015-10-23T15:28:18.868+0200" lastModified="2015-11-11T13:58:06.143+0100" uniqueID="19d04afb-418f-47cc-926f-5e0cbe0b6f2b" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="11" name="OS-RCI" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Recieve Call Interface&#xA;This interface lets the Operator System recieve calls and redirect them accordingly if there is any enriched data available." timeCreated="2015-10-23T15:39:26.452+0200" lastModified="2015-11-20T09:55:04.307+0100" uniqueID="e1d0e087-f484-4d5a-8784-e9604a6ab715" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:28:18.920+0200" uniqueID="ae60f951-8388-4632-b027-5a3c5a80da5e" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-10-23T15:39:26.500+0200" uniqueID="a66b9a32-b7c8-4ab5-b307-625afa2f69cb" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T10:02:20.925+0100" uniqueID="77fed459-f21d-4829-8377-6ebb982bf297">
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T10:22:12.134+0100" uniqueID="338d85a5-5e22-4e7e-9181-673b04d4756a">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="OS Receive Call Interface is one of the most complex system components in OS. It handles any redirection of calls to operators, along with matching any received enriched call data. When citizens call the emergency services, OS-RCI handles the call. Depending on the available operator situation, different handling happens. If no operators are available, it is considered to redirect the call to another PSAP. This is most likely if another answering point is close to the call location. Calls could also be placed in a queue, where they will wait. If multiple operators are available, along with enriched call data, OS-RCI can redirect the call to the best suited of these operators. If the call is not enriched, or if there is only one operator available, the call with be redirected straight forward.&lt;br&gt;&lt;br&gt;Calls are redirected to an OS-I instance of the selected operator. Through OS-I and OS-RCI the operator will manage the call."/>
+        </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="OS-I" name="Operator Interface" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="This interface within the Operator System gives control and visualizes information to the operator" timeCreated="2015-10-23T15:33:39.485+0200" lastModified="2015-11-11T14:06:44.540+0100" uniqueID="359fc94f-0675-43b4-a662-78f16062c740" workPackage="">
-      <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:33:39.545+0200" uniqueID="1b82bd65-dc8c-4388-950c-e27f66f0cc84" id="" email="" initials="">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </creator>
-      <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T10:03:23.178+0100" uniqueID="674dcf1f-05ae-4860-bca1-44b85fe2f209">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </responsibleUser>
-      <cost name="Cost" kind=""/>
-      <benefit name="Cost" kind=""/>
-    </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="OS-OMS" name="Operator Management System" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="This system within the Operator System manages operators work" timeCreated="2015-10-23T15:36:55.137+0200" lastModified="2015-11-11T14:42:13.941+0100" uniqueID="d4a79c46-62ef-4fb0-9c34-61a66dc52b45" workPackage="">
-      <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:36:55.193+0200" uniqueID="2d5676b7-7382-415c-844c-7fd89838ba12" id="" email="" initials="">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </creator>
-      <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T10:21:29.133+0100" uniqueID="802fc94d-ca48-4493-ae60-f440cf63a9f9">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </responsibleUser>
-      <cost name="Cost" kind=""/>
-      <benefit name="Cost" kind=""/>
-    </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="OS-RCI" name="Recieve Call Interface" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="This interface lets the Operator System recieve calls and redirect them accordingly if there is any enriched data available." timeCreated="2015-10-23T15:39:26.452+0200" lastModified="2015-11-11T14:47:04.140+0100" uniqueID="e1d0e087-f484-4d5a-8784-e9604a6ab715" workPackage="">
-      <commentlist/>
-      <creator name="" timeCreated="2015-10-23T15:39:26.500+0200" uniqueID="a66b9a32-b7c8-4ab5-b307-625afa2f69cb" id="" email="" initials="">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </creator>
-      <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T10:22:12.134+0100" uniqueID="338d85a5-5e22-4e7e-9181-673b04d4756a">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </responsibleUser>
-      <cost name="Cost" kind=""/>
-      <benefit name="Cost" kind=""/>
-    </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="OS-DOCDB" name="Call Documentation DB" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Stores emergency calls and operator inputs" timeCreated="2015-10-23T15:46:55.992+0200" lastModified="2015-11-11T13:04:17.099+0100" uniqueID="84221294-2897-46f9-af70-824a74c27c22" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="12" name="OS-DOCDB" elementKind="technical_system" partOf="87c5b199-7ee9-49fa-b86b-2a0c49ffe3f7" description="Operator System Documentation Database&#xA;Stores emergency call recordings and operator inputs for documentation purposes" timeCreated="2015-10-23T15:46:55.992+0200" lastModified="2015-11-20T09:55:56.840+0100" uniqueID="84221294-2897-46f9-af70-824a74c27c22" workPackage="">
       <commentlist/>
       <creator name="" timeCreated="2015-10-30T10:22:27.286+0100" uniqueID="a1a23ad7-bfed-4036-8ab8-ab60e6ff1221">
         <cost name="Cost" kind=""/>
@@ -185,28 +218,120 @@
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="OS Documentation Database exists for logging requirements. Entire calls are recorded and all operator actions are logged. This data is stored in OS-DOCDB. By storing such data structured, it can easily be retrieved for later evaluation. Evaluation could be for optimizing procedures, or forensics in case of a legal matter. It is generally not possible to delete or manipulate any data stored in OS-DOCDB, but data is only stored for as long as legally required."/>
+      </discussion>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="PSAP" name="Public Safety Answering Point" elementKind="domain_term" description="" timeCreated="2015-10-30T09:36:08.851+0100" lastModified="2015-10-30T14:22:24.139+0100" uniqueID="316e46ea-115e-4838-8ca5-10e76be3e291" workPackage="">
-      <creator name="" timeCreated="2015-10-30T09:36:08.891+0100" uniqueID="f3affe3a-a43d-400d-8d23-9b573d0f0c22" id="" email="" initials="">
+    <contents xsi:type="glossary:GlossaryEntry" label="13" name="PSAP" elementKind="domain_term" description="Public Safety Answering Point&#xA;A facility where operators answer emergency calls and dispatch resources from." timeCreated="2015-10-30T09:36:08.851+0100" lastModified="2015-11-20T10:07:28.498+0100" uniqueID="316e46ea-115e-4838-8ca5-10e76be3e291" workPackage="">
+      <commentlist/>
+      <creator name="Andreas" timeCreated="2015-10-30T09:36:08.891+0100" uniqueID="f3affe3a-a43d-400d-8d23-9b573d0f0c22" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-30T09:36:17.978+0100" uniqueID="d06cf00b-f159-4042-a366-6652e496e083">
+      <responsibleUser name="Andreas" timeCreated="2015-10-30T09:36:17.978+0100" uniqueID="d06cf00b-f159-4042-a366-6652e496e083">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="glossary:GlossaryEntry" label="EXT-TEL" name="Telecommunications service provider" elementKind="technical_system" description="This entry describes basic services and assumptions of network providers in countries implementing OS." timeCreated="2015-11-11T11:51:08.330+0100" lastModified="2015-11-11T12:04:57.822+0100" uniqueID="dcd2983c-88a5-491b-ad42-5a76288777a5" workPackage="">
+    <contents xsi:type="glossary:GlossaryEntry" label="14" name="EXT-TEL" elementKind="technical_system" description="Telecommunications service provider&#xA;This entry describes basic services and assumptions of network providers in countries implementing OS." timeCreated="2015-11-11T11:51:08.330+0100" lastModified="2015-11-20T10:08:16.921+0100" uniqueID="dcd2983c-88a5-491b-ad42-5a76288777a5" workPackage="">
       <commentlist/>
-      <creator name="" timeCreated="2015-11-11T11:51:08.405+0100" uniqueID="1c86d464-5c0e-474e-a6c2-a011107b8c8e" id="" email="" initials="">
+      <creator name="Andreas" timeCreated="2015-11-11T11:51:08.405+0100" uniqueID="1c86d464-5c0e-474e-a6c2-a011107b8c8e" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </creator>
       <changeList/>
-      <responsibleUser name="" timeCreated="2015-11-11T11:51:20.999+0100" uniqueID="4cf2fb51-7d77-499c-897e-5d08b4d16c24">
+      <responsibleUser name="Andreas" timeCreated="2015-11-11T11:51:20.999+0100" uniqueID="4cf2fb51-7d77-499c-897e-5d08b4d16c24">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="15" name="Fail gracefully" elementKind="technology_term" description="Failing gracefully means that in the event of an error, it must not affect other systems and the user should be provided with a userfriendly error message and then be allowed to continue" timeCreated="2015-11-18T10:17:55.079+0100" lastModified="2015-11-20T10:08:58.246+0100" uniqueID="8709b419-5df6-4554-8c5b-573ec91cd5ca" workPackage="">
+      <commentlist/>
+      <creator name="Troels" timeCreated="2015-11-18T10:17:55.136+0100" uniqueID="f87b67e6-8011-41e0-a7c0-1a6c2b0e2c16" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <relatedBy xsi:type="relationship:ElementReference" href="Requirements.red#eac33a6d-45ad-439c-aa0e-2b1e500a16bf"/>
+      <relatedBy xsi:type="relationship:ElementReference" href="Requirements.red#5a5f8328-d64d-4fcc-9e7f-8335b7b3189a"/>
+      <changeList/>
+      <responsibleUser name="Troels" timeCreated="2015-11-18T10:18:09.452+0100" uniqueID="134951a2-8aaf-4c1c-9c36-8d3b6510a92f">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="16" name="Resource" elementKind="domain_term" description="Resource or dispatchable resource refers to ambulances, firetrucks or police units." timeCreated="2015-11-18T10:09:54.453+0100" lastModified="2015-11-20T10:11:10.119+0100" uniqueID="cee4c18e-0b4d-4086-9836-a53721ae4389" workPackage="">
+      <commentlist/>
+      <creator name="Troels" timeCreated="2015-11-18T10:09:54.475+0100" uniqueID="46c9c1f0-6cc8-4f0e-9d51-4dd2b7546d07" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="Troels" timeCreated="2015-11-18T10:10:34.099+0100" uniqueID="c2bc3059-876a-4de0-82f9-73b6d5f3691c">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <synonyms>Dispatchable resource</synonyms>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="17" name="Enriched call data" elementKind="unspecified" description="Data such as location, social security number, allergies and chronical diseases attached to a call" timeCreated="2015-11-18T11:35:40.893+0100" lastModified="2015-11-20T10:09:48.742+0100" uniqueID="72a86102-ce76-4607-b007-9d0688625de3" workPackage="">
+      <commentlist/>
+      <creator name="Troels" timeCreated="2015-11-18T11:35:41.002+0100" uniqueID="cf6d3f20-6641-4e98-a23d-1cd2e0e05773" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="Troels" timeCreated="2015-11-20T10:09:40.900+0100" uniqueID="b008ad4f-148e-482c-955d-228c77ed96a7">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <discussion>
+          <fragments xsi:type="text:FormattedText" text="Enriched call is the term for incoming calls to PSAPs that are accompanied by additional citizen metadata. This data is entered or fetched by OS-APP and could be GPS coordinates, social security number or information about chronic diseases or allergies, but is not limited to that. Data is delivered through a data connection, to a webservice in OS-RCI. Enriched calls are in contrast to regular calls, without any such extraordinary data."/>
+      </discussion>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="18" name="MPDS code" elementKind="technology_term" description="Medical Priority Dispatch System code&#xA;This is a code that defines the nature of a emergency call. It is used for quick explaining for dispatchable resources." timeCreated="2015-11-20T09:45:34.393+0100" lastModified="2015-11-20T10:09:58.966+0100" uniqueID="bcb74e51-1b90-478e-984a-cea02d9f0337" workPackage="">
+      <commentlist/>
+      <creator name="Andreas" timeCreated="2015-11-20T09:45:34.418+0100" uniqueID="6cba8073-ea71-43f7-9a31-e647568f6b2e" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="Andreas" timeCreated="2015-11-20T09:46:28.738+0100" uniqueID="7b476966-3919-44d6-ac35-0cd77b333635">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="19" name="Administrator" elementKind="technical_system" description="Administrator is a role which can be given to employees at the PSAP such as operators. It is besides being operator, and allows them to manage OS-OMS." timeCreated="2015-11-20T11:43:48.467+0100" lastModified="2015-11-20T11:45:11.210+0100" uniqueID="acf1fc2d-4497-47b1-b65a-eb0612712a39" workPackage="">
+      <creator name="" timeCreated="2015-11-20T11:43:48.528+0100" uniqueID="157f495d-cca8-4a4d-997b-e12de37ed832" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-20T11:45:11.192+0100" uniqueID="8198b64e-d4c7-4cba-ac31-836558c61394">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="20" name="Operator" elementKind="domain_term" description="An operator is typically a nurse working at a PSAP. He/she answers incoming emergency calls and may dispatch resources." timeCreated="2015-11-25T09:46:22.564+0100" lastModified="2015-11-25T09:52:48.603+0100" uniqueID="cd3d8abe-04d8-43c9-bc32-dd08f8a755da" workPackage="">
+      <creator name="" timeCreated="2015-11-25T09:46:22.620+0100" uniqueID="e1434ca1-436b-4773-9f94-fa27d52e4222" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T09:52:28.125+0100" uniqueID="3b78989e-47a7-4295-9bbe-e89eac794096">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>

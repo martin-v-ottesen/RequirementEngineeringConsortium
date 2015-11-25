@@ -272,6 +272,71 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/team.png" label="OS-A-001" name="Operator" elementKind="team" description="An operator educated as a nurse" timeCreated="2015-11-24T09:49:51.508+0100" lastModified="2015-11-25T08:36:29.879+0100" uniqueID="2d264ced-df2a-4356-a3e4-17ce8f7e33d6" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-24T09:49:51.509+0100" uniqueID="443e1217-4ffd-4838-95f8-ca56bec1b29c" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T08:36:29.877+0100" uniqueID="5c7d6c68-73f9-4dfa-89d1-42d8daec6a9b">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/team.png" label="OS-A-002" name="Fireman" elementKind="team" description="A fireman that PSAP calls can be directed to" timeCreated="2015-11-24T09:50:19.595+0100" lastModified="2015-11-25T08:36:23.717+0100" uniqueID="f3c2bdb6-7dd0-4ef3-b618-d5d849189292" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-24T09:50:19.596+0100" uniqueID="7cc3f23d-69b9-417e-87d4-b96071921324" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T08:36:23.714+0100" uniqueID="c46226e3-017c-40f1-a2c8-4b3d4301b337">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="OS-A-003" name="Citizen" elementKind="person" description="A citizen that can experience an accident or call for help" timeCreated="2015-11-24T09:51:02.678+0100" lastModified="2015-11-25T08:36:11.273+0100" uniqueID="9de4a2f5-c18c-4da1-b77e-b0a731bd9f22" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-24T09:51:02.679+0100" uniqueID="dbac23a8-a7aa-47cc-89f4-88d1398be793" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T08:36:11.272+0100" uniqueID="392af6aa-5002-41de-9b74-6ac3b66609a6">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/role.png" label="OS-A-004" name="Administrator" elementKind="role" description="An operator with administrative priviledges. Also functions as an ordinary operator besides this role" timeCreated="2015-11-24T09:52:40.851+0100" lastModified="2015-11-25T08:35:53.287+0100" uniqueID="dffabc53-ae1a-4b72-be0a-04d1b6bb1a5c" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-24T09:52:40.852+0100" uniqueID="4984936c-20c9-4fad-91e6-3c0895ff961c" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-24T10:59:35.585+0100" uniqueID="11826101-84d9-4d8c-a807-6411781e99ec">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="configuration:Actor" iconURI="icons/group.png" label="OS-A-005" name="Dispatchable resource" elementKind="group" description="A dispatchable resource can be an ambulance, firetruck, police car or the like." timeCreated="2015-11-25T08:35:06.128+0100" lastModified="2015-11-25T08:35:44.454+0100" uniqueID="e7040282-62ba-4261-a9bc-36f8202d8b64" workPackage="" code="">
+      <creator name="" timeCreated="2015-11-25T08:35:06.128+0100" uniqueID="62aa81f9-8eef-4dab-894d-aa564312e240" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T08:35:44.452+0100" uniqueID="2eb056a8-d6bc-4cfe-8f26-3712b2c47648">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
   </contents>
   <longDescription>
     <fragments xsi:type="text:FormattedText" text=""/>

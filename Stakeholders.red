@@ -267,7 +267,8 @@
         <fragments xsi:type="text:FormattedText" text="&lt;P>How to supply the entire EU with cards in a structured way?&lt;/P>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-DEV" name="Developers of systems" elementKind="External" description="System interaction with this system, i.e. app, dispatch system etc." timeCreated="2015-10-01T22:58:21.060+0200" lastModified="2015-10-27T12:36:03.484+0100" uniqueID="d7ad0f85-0fe7-40b7-9e3b-641a8b938fb0" workPackage="" exposure="2" urgency="2" importance="2">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-DEV" name="Developers of systems" elementKind="External" description="These are the developers of the system. The ones receiving the system specifications, requirements goals and so on, and in the end have to implement the system as it was intended. They have a professional pride in the system they create, for instance, they would not like if it received bad publicity because of crashes, high latencies or bad usability." timeCreated="2015-10-01T22:58:21.060+0200" lastModified="2015-11-18T13:44:36.750+0100" uniqueID="d7ad0f85-0fe7-40b7-9e3b-641a8b938fb0" workPackage="" exposure="2" urgency="3" importance="2">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:58:21.060+0200" uniqueID="ac77fb45-6c4a-4e23-8d73-2679ff662ffb" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -280,16 +281,17 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="Interacts with OS, needs stability so their own applications don&#x2019;t suffer. Errors in OS might fall back on them as well for non technical people"/>
+        <fragments xsi:type="text:FormattedText" text="Developing the system is what they get paid for. It has to function properly, so the company they work for get paid and it does not fall back on them. They have to work with the system in long periods."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="Important to discuss designs, and interfaces at early stages. Explore scenarios and use cases to gain good understanding of each system."/>
+        <fragments xsi:type="text:FormattedText" text="Must be kept informed about designs, and interfaces at early stages. Explore scenarios and use cases to gain good understanding of each system. They must be involved in decisions and information sharing."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 2 because they develop and test it, but don't use it in production.&lt;br>Power is 1 because they simply implement what is decided by others&lt;br>Urgency is 3 because developers are the first to receive changes and implement them.&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-EENA" name="EENA" elementKind="External" description="EENA is an organisation which helps provice policies and guidelines of how to run emergency services. This means that they will in many cases be listened to, and therefore they have a great deal of power of shaping the system." timeCreated="2015-10-01T22:52:02.439+0200" lastModified="2015-10-27T12:37:39.288+0100" uniqueID="e4c4dd9e-ad30-4d82-ab0f-fc3ecefbd703" workPackage="" exposure="2" power="3" urgency="2" importance="3">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-EENA" name="EENA" elementKind="External" description="EENA is an organisation which helps provice policies and guidelines of how to run emergency services. This means that they will in many cases be listened to by other stakeholders, and therefore they have a great deal of power of shaping the system." timeCreated="2015-10-01T22:52:02.439+0200" lastModified="2015-11-18T13:50:10.594+0100" uniqueID="e4c4dd9e-ad30-4d82-ab0f-fc3ecefbd703" workPackage="" power="2" urgency="3" importance="3">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:52:02.439+0200" uniqueID="bb8ef645-eff1-44b6-8733-fc0ef76289f9" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -302,16 +304,17 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="EENA discuss and promote 112 systems and operations throughout EU. OS could be promoted by them."/>
+        <fragments xsi:type="text:FormattedText" text="EENA discuss and promote 112 systems and operations throughout EU. They have wide knowledge of PSAP’s and their processes, and want influence OS design."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="Should be engaged again by highlighting OS benefits if deployed throughout EU."/>
+        <fragments xsi:type="text:FormattedText" text="They should be pleased because of their high power of the system. Their high knowlegde in of area is acknowledgeable and it is very likely the system improves from pleasing them."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they as a group do not interact with the system in any way. Some members might be operators, but they are a different stakeholder.&lt;br>Power is 2 because they are an recognized association, pertially of operators. Today they have some say in how procedures at PSAP’s are defined.&lt;br>Urgency is 3 because they are part of the design decisions made.&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-REGMUN" name="Regions/municipalities" elementKind="External" description="The regions/municipalities the system operates within/across" timeCreated="2015-10-01T22:51:20.469+0200" lastModified="2015-10-27T12:39:30.508+0100" uniqueID="a6d9c621-d2b0-4095-bd3e-7e4e6dda128f" workPackage="" exposure="2" power="2" importance="2">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-REGMUN" name="Regions/municipalities" elementKind="External" description="The regions and municipalities the system is deployed within. It is common that PSAP's are subject to rules and administration of regions or municipalities. This means there can actually be different rules and budgets for different PSAP's in the same country." timeCreated="2015-10-01T22:51:20.469+0200" lastModified="2015-11-18T13:53:23.056+0100" uniqueID="a6d9c621-d2b0-4095-bd3e-7e4e6dda128f" workPackage="" power="3" importance="2">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:51:20.469+0200" uniqueID="0c540c8d-c29a-46a7-a2ff-d09eacb31659" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -324,16 +327,17 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="Regions can help push OS out to the PSAP&#x2019;s, in order to secure better operation for citizens."/>
+        <fragments xsi:type="text:FormattedText" text="Some regions have high influence on system design. By law or tradition they have high control of health care systems. They do not use the system directly themselves, but are responsible for the operation."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="Should be engaged by lobbying OS and its benefits, like reduced bottlenecks and possibly saved lives"/>
+        <fragments xsi:type="text:FormattedText" text="They should be kept satisfied and informed. By lobbying OS benefits, like reduced bottlenecks and possibly saved lives system implementation could increase."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="In general it is difficult to classify this stakeholder, as their power may vary greatly through different countries. In Denmark, regions have huge power. Some countries don't even have such regions.&lt;br>&lt;br>Exposure is 1 because they will never interact with the system.&lt;br>Power is 3 because they are very involed in the design, and their opinions matter greatly. They migh even fund the system in some way.&lt;br>Urgency is 1 because they might never experience any changes, as they don't use it.&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-GOV" name="Governments" elementKind="External" description="Governments" timeCreated="2015-10-01T22:50:50.337+0200" lastModified="2015-10-27T12:41:20.689+0100" uniqueID="101cb311-4c3f-438e-9de0-b268d4702eaa" workPackage="" exposure="2" power="3" urgency="2" importance="3">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-GOV" name="Governments" elementKind="External" description="Governments the system is deployed within. Could be any EU government, with somewhat different healthcare laws and traditions. Governments and their ministers typically define the high level goals of the system. They also have the final word on the big decisions, but do not necessarily enforce them." timeCreated="2015-10-01T22:50:50.337+0200" lastModified="2015-11-18T13:53:34.539+0100" uniqueID="101cb311-4c3f-438e-9de0-b268d4702eaa" workPackage="" exposure="2" power="3" urgency="2" importance="3">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:50:50.337+0200" uniqueID="80167b12-e390-430a-b21a-4b3b0d8aa0a1" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -346,16 +350,17 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="Governments can help push OS out to the PSAP&#x2019;s, in order to secure better operation for citizens. "/>
+        <fragments xsi:type="text:FormattedText" text="Some governments have high influence on system design. By law they have high control of health care systems. They do not use the system directly themselves, but are responsible for the operation."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="Should be engaged by lobbying OS and its benefits, like reduced bottlenecks and possibly saved lives."/>
+        <fragments xsi:type="text:FormattedText" text="They should be kept satisfied and informed. By lobbying OS benefits, like reduced bottlenecks and possibly saved lives system implementation could increase."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="In general it is difficult to classify this stakeholder, as their power may vary greatly through different countries. In Denmark, regions have huge power. Some countries don't even have such regions.&lt;br>&lt;br>Exposure is 1 because they will never interact with the system.&lt;br>Power is 3 because they are very involed in the design, and their opinions matter greatly. They migh even fund the system in some way.&lt;br>Urgency is 1 because they might never experience any changes, as they don't use it.&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-POL" name="E-Health related EU politicians" elementKind="External" description="Politicians" timeCreated="2015-10-01T22:50:35.760+0200" lastModified="2015-10-27T12:42:21.151+0100" uniqueID="18f6fb63-d29d-4015-85f9-45d3840b84cf" workPackage="" exposure="2" power="3" urgency="2" importance="3">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-POL" name="E-Health related EU politicians" elementKind="External" description="Politicians are somewhat derived from both OS-GOV and OS-REGMUN, as they are the people employed there. Politicians can be influenced by lobbyists and voters, wich will influence their decisions related to the system." timeCreated="2015-10-01T22:50:35.760+0200" lastModified="2015-11-18T13:54:33.400+0100" uniqueID="18f6fb63-d29d-4015-85f9-45d3840b84cf" workPackage="" power="3" importance="2">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:50:35.760+0200" uniqueID="ed7610be-e413-48da-a973-86e3e46b6158" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -368,16 +373,17 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="Politicians can help push OS out to the PSAP&#x2019;s, in order to secure better operation for citizens."/>
+        <fragments xsi:type="text:FormattedText" text="EU politicians are the project owners, as they have though up the system. They have an interest in wide adoptance and high life saving rate."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="The politicians should be engaged by lobbying OS and its benefits, like reduced bottlenecks and possibly"/>
+        <fragments xsi:type="text:FormattedText" text="They should be kept satisfied and informed. By lobbying OS benefits, like reduced bottlenecks and possibly saved lives system implementation could increase."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they will never interact with the system.&lt;br>Power is 3 because they are very involed in the design, and their opinions matter greatly.&lt;br>Urgency is 1 because they might never experience any changes, as they don't use it.&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-PAT" name="Patients" elementKind="External" description="" timeCreated="2015-10-01T22:49:40.651+0200" lastModified="2015-10-27T12:43:05.988+0100" uniqueID="54772621-ada3-4ec8-b766-5cc274254be8" workPackage="">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-PAT" name="Patients/citizens" elementKind="External" description="These are the people that the system in the very end has to help. They need emergency care, OS has to help operators deliver them exactly that. They have very little influence in the system though, as they do not operate it or hold any relevant knowledge about it. If the system is a failure, they will be the ones influencing OS-POL." timeCreated="2015-10-01T22:49:40.651+0200" lastModified="2015-11-18T13:55:34.240+0100" uniqueID="54772621-ada3-4ec8-b766-5cc274254be8" workPackage="">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:49:40.651+0200" uniqueID="5b4c4051-0885-4ddd-99e6-54f121423e06" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -390,16 +396,17 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="Patients need functioning PSAP&#x2019;s, but are not aware of the supporting systems."/>
+        <fragments xsi:type="text:FormattedText" text="They are influenced heavily by the system, as they rely on the emergency response it provides."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="Avoid implementation difficulties, that cripples PSAP&#x2019;s."/>
+        <fragments xsi:type="text:FormattedText" text="Citizens have no direct influence of the system. Their oninions may be reflected by politicians. They have some interest in the system, and should be somewhat informed. Since they have no direct power, they cannot be pleased."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they will never operate the system&lt;br>Power is 1 because they have no direct influence on the system. Many might not even care as long as it &quot;works&quot;&lt;br>Urgency is 1 because they will never see changes or be aware of them.&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-PSAP" name="Companies owning the call centers" elementKind="Internal" description="" timeCreated="2015-10-01T22:48:47.055+0200" lastModified="2015-10-27T12:45:16.393+0100" uniqueID="3607a86a-b7f5-4856-ae38-506d9e5b33a6" workPackage="" exposure="3" power="3" urgency="2" importance="3">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-PSAP" name="Public Safety Answering Points" elementKind="Internal" description="Public Safety Answering Points are the places where OS is deployed, so they are greatly influenced. It is important that OS can support their services and do it seamlessly. They have an interest in lowering their costs and provide great service at the same time." timeCreated="2015-10-01T22:48:47.055+0200" lastModified="2015-11-18T13:57:59.177+0100" uniqueID="3607a86a-b7f5-4856-ae38-506d9e5b33a6" workPackage="" exposure="3" power="2" urgency="3" importance="3">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:48:47.055+0200" uniqueID="573adef2-e53f-4056-be9c-09e22e918ac6" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -415,35 +422,14 @@
         <fragments xsi:type="text:FormattedText" text="OS will heavily influence the call center owners, as it will be the main system for operators. It is important OS delivers on promises of reducing bottlenecks, as the companies invest money."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="Call center owners need to see how their center will be improved by OS."/>
+        <fragments xsi:type="text:FormattedText" text="They must be satisfied within reason and kept informed. They have great knowledge of system requirements."/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 3 because they use the system on a daily basis. Everyone employed at a PSAP will in some way use OS during a day&lt;br>Power is 2 because their opinions will be valued, as they have great knowledge in the field. There might still be laws and regulations that are considered by others and valued higher.&lt;br>Urgency is 3 because they will notice changes immediately&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-EMRES" name="Emergency response units" elementKind="External" description="" timeCreated="2015-10-01T22:49:24.009+0200" lastModified="2015-10-27T12:44:26.554+0100" uniqueID="934e96b4-344c-4651-97c2-a63e06e57257" workPackage="" exposure="2" urgency="3" importance="2">
-      <creator name="" timeCreated="2015-10-01T22:49:24.009+0200" uniqueID="766f2b44-dcc7-4f9b-9b5f-ef3ab7fefbd7" id="" email="" initials="">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </creator>
-      <changeList/>
-      <responsibleUser name="" timeCreated="2015-10-01T22:55:11.711+0200" uniqueID="87aa7803-9856-47e5-9f75-c696ecbe9f34">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </responsibleUser>
-      <cost name="Cost" kind=""/>
-      <benefit name="Cost" kind=""/>
-      <stake>
-        <fragments xsi:type="text:FormattedText" text="Needs information provided by OS. Their jobs are not at risk, due to savings or the like."/>
-      </stake>
-      <engagement>
-        <fragments xsi:type="text:FormattedText" text="As they hold lots of operational knowledgement, they might be involved in the design phase."/>
-      </engagement>
-      <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
-      </longDescription>
-    </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="OS-OP" name="Operators" elementKind="Internal" description="OPerators are the persons employed at the PSAP's, handling incoming calls. They can be employed part time, and function as doctors besides operating. This gives them certain different skills from each other. " timeCreated="2015-10-01T22:47:59.336+0200" lastModified="2015-10-27T12:50:49.194+0100" uniqueID="c8da5b53-96b5-4007-ab61-f73401c8fdf3" workPackage="" exposure="3" power="2" urgency="3" importance="3">
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-OP" name="Operators" elementKind="Internal" description="Operators are the people employed at the PSAP's, handling incoming calls. They can be employed part time, and function as nurses besides operating.  They are directly influenced by OS, they are the ones using it most. They have to handle many calls and they have a huge intrest in the system supporting their processes seamlessly." timeCreated="2015-10-01T22:47:59.336+0200" lastModified="2015-11-18T14:02:18.900+0100" uniqueID="c8da5b53-96b5-4007-ab61-f73401c8fdf3" workPackage="" exposure="3" power="2" urgency="3" importance="3">
+      <commentlist/>
       <creator name="" timeCreated="2015-10-01T22:47:59.336+0200" uniqueID="4ff40f15-c80d-4b17-8ee2-bb321e520571" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
@@ -456,13 +442,36 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="OS will heavily influence work of operators, but not threaten their jobs. It will reduce some bottlenecks, freeing up resources."/>
+        <fragments xsi:type="text:FormattedText" text="OS will heavily influence work of operators as this is their primary tool. It will reduce some bottlenecks and free up resources."/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="It is very important to win over the operators, as they will be primary users of OS. They should be involved in the design phase."/>
+        <fragments xsi:type="text:FormattedText" text="It is very important to win over the operators, as they will be primary users of OS. They should be kept informed and satisfied, especially in the design phase. They have great knowledge of many requirements. "/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 3 because they use the system on a daily basis, this is their primary tool&lt;br>Power is 2 because their opinions will be valued, as they have great knowledge in the field. There might still be laws and regulations that are considered by others and valued higher.&lt;br>Urgency is 3 because operators will notice changes immediately&lt;br>"/>
+      </longDescription>
+    </contents>
+    <contents xsi:type="stakeholder:Stakeholder" label="OS-DIS" name="Dispatchable resources" elementKind="External" description="See GEN-003 for detailing of dispatchable resources. They are influenced by the system, because all the information they have to respond on, was collected with and sent by OS. They need accurate information and good communication with operators." timeCreated="2015-10-01T22:49:24.009+0200" lastModified="2015-11-18T14:04:27.224+0100" uniqueID="934e96b4-344c-4651-97c2-a63e06e57257" workPackage="" exposure="2" urgency="3" importance="2">
+      <commentlist/>
+      <creator name="" timeCreated="2015-10-01T22:49:24.009+0200" uniqueID="766f2b44-dcc7-4f9b-9b5f-ef3ab7fefbd7" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-10-01T22:55:11.711+0200" uniqueID="87aa7803-9856-47e5-9f75-c696ecbe9f34">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <stake>
+        <fragments xsi:type="text:FormattedText" text="They recieve call information collected with OS. They rely heavily on this information and they must have close dialog with operators through OS."/>
+      </stake>
+      <engagement>
+        <fragments xsi:type="text:FormattedText" text="They should be monitored. As they hold lots of operational knowledgement, they might be involved somewhat in the design phase."/>
+      </engagement>
+      <longDescription>
+        <fragments xsi:type="text:FormattedText" text="Exposure is 2 because they are affected by the quality of the information they receive from OS. The information they use for responding to emergencies.&lt;br>Power is 1 because they are actively using the system and not considered for the design.&lt;br>Urgency is 3 because they notice immidiately if there is any changes to the information they recive.&lt;br>"/>
       </longDescription>
     </contents>
     <contents xsi:type="stakeholder:Stakeholder" label="HOS-D" name="Developers" elementKind="Internal" description="Developers in the development company making the software. " timeCreated="2015-11-24T08:45:29.618+0100" lastModified="2015-11-24T08:49:42.868+0100" uniqueID="53ba9bb5-9993-4af5-a995-dc2e90a42cf8" workPackage="">
