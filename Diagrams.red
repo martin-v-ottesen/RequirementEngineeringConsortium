@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-11-06T13:18:46.059+0100" lastModified="2015-11-25T13:59:07.607+0100" uniqueID="83e941e0-57e4-4e2e-abff-e7d3ee88673a">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-11-06T13:18:46.059+0100" lastModified="2015-11-25T15:43:53.956+0100" uniqueID="83e941e0-57e4-4e2e-abff-e7d3ee88673a">
   <creator name="" timeCreated="2015-11-06T13:18:46.060+0100" uniqueID="ecddb04a-ed22-407e-8a19-ebce88c280ed" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Diagrams" timeCreated="2015-11-06T13:22:20.204+0100" lastModified="2015-11-24T11:31:21.522+0100" uniqueID="647faa6a-a5ce-4fbd-b543-436c39bccde5">
+  <contents xsi:type="folder:Folder" name="Diagrams" timeCreated="2015-11-06T13:22:20.204+0100" lastModified="2015-11-25T15:26:25.123+0100" uniqueID="647faa6a-a5ce-4fbd-b543-436c39bccde5">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="visualmodel:Diagram" label="HOS-CD" name="Context Diagram" elementKind="unspecified" description="" timeCreated="2015-11-06T15:21:25.300+0100" lastModified="2015-11-24T11:31:13.101+0100" uniqueID="44896ba4-d2d7-4e15-92ee-f38979292e5e" workPackage="">
@@ -112,6 +112,74 @@
           <Bendpoints>363,351</Bendpoints>
           <Bendpoints>505,351</Bendpoints>
         </DiagramConnections>
+      </VisualDiagram>
+    </contents>
+    <contents xsi:type="visualmodel:Diagram" label="OS-CD" name="Context Diagram" elementKind="unspecified" description="" timeCreated="2015-11-25T15:26:25.100+0100" lastModified="2015-11-25T15:26:25.123+0100" uniqueID="7fe5132d-ec78-4ee4-bae1-522e8c07f41d" workPackage="">
+      <creator name="" timeCreated="2015-11-25T15:29:54.723+0100" uniqueID="50e1ad39-372b-45ea-b35f-dfb8a0049501">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T15:29:54.724+0100" uniqueID="4de6d662-bc93-4390-a6f1-2cdaca323322">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.1/@VisualDiagram" DiagramType="Context">
+        <Elements xsi:type="context:VisualContextActor" Location="824,413" Bounds="60,70" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.7 //@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.9" IsSketchy="true" Name="Citizen" visualID="_xqt9oJOBEeWZrZgB18ivJw" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor"/>
+        <Elements xsi:type="context:VisualSystem" Location="804,293" Bounds="104,63" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.7" IsSketchy="true" Name="EXT-TEL" visualID="_2gxGkJOBEeWZrZgB18ivJw">
+          <Elements xsi:type="context:VisualPort" Location="0,33" Bounds="30,30" Parent="_2gxGkJOBEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.8" IsSketchy="true" visualID="_6JKJkJOBEeWZrZgB18ivJw"/>
+          <Elements xsi:type="context:VisualPort" Location="74,33" Bounds="30,30" Parent="_2gxGkJOBEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.10" IsSketchy="true" visualID="_ASjJsJOCEeWZrZgB18ivJw"/>
+        </Elements>
+        <Elements xsi:type="context:VisualSystem" Location="916,293" Bounds="200,200" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="OS-APP (Mobile App)" visualID="_9ZR2gJOBEeWZrZgB18ivJw">
+          <Elements xsi:type="context:VisualPort" Location="0,141" Bounds="30,30" Parent="_9ZR2gJOBEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.9" IsSketchy="true" visualID="_AwGBUJOCEeWZrZgB18ivJw"/>
+          <Elements xsi:type="context:VisualPort" Location="0,33" Bounds="30,30" Parent="_9ZR2gJOBEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.10" IsSketchy="true" visualID="_Bqi3YJOCEeWZrZgB18ivJw"/>
+        </Elements>
+        <Elements xsi:type="context:VisualSystem" Location="17,36" Bounds="778,595" Parent="//@contents.0/@contents.1/@VisualDiagram" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="OS (Operator System)" visualID="_WGLOEJOCEeWZrZgB18ivJw">
+          <Elements xsi:type="context:VisualSystem" Location="513,25" Bounds="200,200" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="OS-OMS (Op Management System)" visualID="_sHIOsJOAEeWZrZgB18ivJw">
+            <Elements xsi:type="context:VisualPort" Location="0,170" Bounds="30,30" Parent="_sHIOsJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.3" IsSketchy="true" visualID="_YfAjIJOBEeWZrZgB18ivJw"/>
+          </Elements>
+          <Elements xsi:type="context:VisualSystem" Location="261,25" Bounds="200,200" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="OS-DOCDB (Documentation Database)" visualID="_n9GeQJOAEeWZrZgB18ivJw">
+            <Elements xsi:type="context:VisualPort" Location="170,170" Bounds="30,30" Parent="_n9GeQJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.12" IsSketchy="true" visualID="_XBQLsJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="131,170" Bounds="30,30" Parent="_n9GeQJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.11" IsSketchy="true" visualID="_fOTFoJOBEeWZrZgB18ivJw"/>
+          </Elements>
+          <Elements xsi:type="context:VisualSystem" Location="17,25" Bounds="200,200" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="OS-DR (Dispatch Resource)" visualID="_kkWZwJOAEeWZrZgB18ivJw">
+            <Elements xsi:type="context:VisualPort" Location="38,170" Bounds="30,30" Parent="_kkWZwJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_D4HXoJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="169,170" Bounds="30,30" Parent="_kkWZwJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" visualID="_Su0tMJOBEeWZrZgB18ivJw"/>
+          </Elements>
+          <Elements xsi:type="context:VisualSystem" Location="17,257" Bounds="200,200" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="OS-CASE (Case)" visualID="_wSD-EJOAEeWZrZgB18ivJw">
+            <Elements xsi:type="context:VisualPort" Location="0,0" Bounds="30,30" Parent="_wSD-EJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.0" IsSketchy="true" visualID="_Ef1e8JOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="170,102" Bounds="30,30" Parent="_wSD-EJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" visualID="_PunrkJOBEeWZrZgB18ivJw"/>
+          </Elements>
+          <Elements xsi:type="context:VisualSystem" Location="261,257" Bounds="200,200" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.5 //@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.6" IsSketchy="true" Name="OS-I (Operator Interface)" visualID="_yirV0JOAEeWZrZgB18ivJw">
+            <Elements xsi:type="context:VisualPort" Location="0,46" Bounds="30,30" Parent="_yirV0JOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.1" IsSketchy="true" visualID="_KaUgYJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="0,102" Bounds="30,30" Parent="_yirV0JOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" visualID="_NUcvMJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="170,42" Bounds="30,30" Parent="_yirV0JOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.11" IsSketchy="true" visualID="_OFHXIJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="170,98" Bounds="30,30" Parent="_yirV0JOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.3" IsSketchy="true" visualID="_ZacQoJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="170,151" Bounds="30,30" Parent="_yirV0JOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.4" IsSketchy="true" visualID="_hHn-wJOBEeWZrZgB18ivJw"/>
+          </Elements>
+          <Elements xsi:type="context:VisualSystem" Location="513,257" Bounds="200,200" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" IsSketchy="true" Name="OS-RCI (Receive Call Interface)" visualID="_01DoIJOAEeWZrZgB18ivJw">
+            <Elements xsi:type="context:VisualPort" Location="0,45" Bounds="30,30" Parent="_01DoIJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.12" IsSketchy="true" visualID="_e4i4EJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="0,152" Bounds="30,30" Parent="_01DoIJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.4" IsSketchy="true" visualID="_hi5lgJOBEeWZrZgB18ivJw"/>
+            <Elements xsi:type="context:VisualPort" Location="170,44" Bounds="30,30" Parent="_01DoIJOAEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.8" IsSketchy="true" visualID="_5uRkYJOBEeWZrZgB18ivJw"/>
+          </Elements>
+          <Elements xsi:type="context:VisualContextActor" Location="290,511" Bounds="60,70" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.5" IsSketchy="true" Name="Operator" visualID="_ku-f8JOBEeWZrZgB18ivJw" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor"/>
+          <Elements xsi:type="context:VisualContextActor" Location="372,511" Bounds="60,70" Parent="_WGLOEJOCEeWZrZgB18ivJw" Diagram="//@contents.0/@contents.1/@VisualDiagram" Connections="//@contents.0/@contents.1/@VisualDiagram/@DiagramConnections.6" IsSketchy="true" Name="Administrator" visualID="_qONv0JOBEeWZrZgB18ivJw" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor" actorKind="Role"/>
+        </Elements>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_D4HXoJOBEeWZrZgB18ivJw" Target="_Ef1e8JOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_Su0tMJOBEeWZrZgB18ivJw" Target="_KaUgYJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_PunrkJOBEeWZrZgB18ivJw" Target="_NUcvMJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_YfAjIJOBEeWZrZgB18ivJw" Target="_ZacQoJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_hHn-wJOBEeWZrZgB18ivJw" Target="_hi5lgJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_ku-f8JOBEeWZrZgB18ivJw" Target="_yirV0JOAEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_qONv0JOBEeWZrZgB18ivJw" Target="_yirV0JOAEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_xqt9oJOBEeWZrZgB18ivJw" Target="_2gxGkJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_6JKJkJOBEeWZrZgB18ivJw" Target="_5uRkYJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_xqt9oJOBEeWZrZgB18ivJw" Target="_AwGBUJOCEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_Bqi3YJOCEeWZrZgB18ivJw" Target="_ASjJsJOCEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_fOTFoJOBEeWZrZgB18ivJw" Target="_OFHXIJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_XBQLsJOBEeWZrZgB18ivJw" Target="_e4i4EJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
       </VisualDiagram>
     </contents>
   </contents>
