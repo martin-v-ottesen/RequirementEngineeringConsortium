@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-11-06T13:18:46.059+0100" lastModified="2015-11-25T15:43:53.956+0100" uniqueID="83e941e0-57e4-4e2e-abff-e7d3ee88673a">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:glossary="dk.dtu.imm.red.glossary" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-11-06T13:18:46.059+0100" lastModified="2015-11-25T17:05:28.499+0100" uniqueID="83e941e0-57e4-4e2e-abff-e7d3ee88673a">
   <creator name="" timeCreated="2015-11-06T13:18:46.060+0100" uniqueID="ecddb04a-ed22-407e-8a19-ebce88c280ed" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -181,6 +181,198 @@
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_fOTFoJOBEeWZrZgB18ivJw" Target="_OFHXIJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_XBQLsJOBEeWZrZgB18ivJw" Target="_e4i4EJOBEeWZrZgB18ivJw" Direction="Bidirectional" Name="" Type="Association"/>
       </VisualDiagram>
+    </contents>
+  </contents>
+  <contents xsi:type="glossary:Glossary" name="GloassryCONSORTIUM" timeCreated="2015-11-25T16:52:51.133+0100" lastModified="2015-11-25T17:05:28.483+0100" uniqueID="63d1c520-9412-422b-97da-f02f56fbad1d">
+    <cost name="Cost" kind=""/>
+    <benefit name="Cost" kind=""/>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-DEV" name="Developer" elementKind="unspecified" description="Refers to the developers of this project, i.e. the people responsible for the implementation and design based on requirements elicited." timeCreated="2015-11-06T14:26:27.549+0100" lastModified="2015-11-25T16:54:14.081+0100" uniqueID="45bca112-85b6-441b-a744-588e7a59807a" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-06T14:26:27.596+0100" uniqueID="6027673d-54c9-46da-8533-7164cdc7ceb2" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-24T22:03:28.850+0100" uniqueID="c9f7ed1a-3ffe-4793-a5ce-367cf9afa638">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-CIT" name="Citizen" elementKind="domain_term" description="Refers to legal residents of an EU member country." timeCreated="2015-11-06T14:59:48.623+0100" lastModified="2015-11-25T16:55:29.390+0100" uniqueID="1645c4de-4f03-4e09-b954-41005b213a5d" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-06T14:59:48.702+0100" uniqueID="902ec3c8-5a8b-475c-a215-a538dbffdded" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-24T22:02:15.910+0100" uniqueID="6629f538-5407-4d11-8f5e-3a982a2f23ab">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <synonyms>EU Citizen</synonyms>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-EU" name="European Union" elementKind="proper_name" description="Refers to the entity that has commissioned this total Health rework within the EU." timeCreated="2015-11-06T14:17:53.230+0100" lastModified="2015-11-25T16:56:59.185+0100" uniqueID="b56b606c-0bb4-453c-8d69-f11fbd83c737" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-06T14:17:53.277+0100" uniqueID="356ff502-08f2-409d-a2a3-7052d80d2564" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-06T14:18:38.316+0100" uniqueID="79488d37-9915-4754-9984-263e59b07fc0">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <synonyms>EU</synonyms>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-EUMC" name="European Union Member Countries" elementKind="unspecified" description="Refers to local governments in the 28 member states of the EU" timeCreated="2015-11-06T14:23:40.335+0100" lastModified="2015-11-25T16:57:30.037+0100" uniqueID="e998cc24-e91f-442e-8ad6-480a482118ac" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-06T14:23:40.397+0100" uniqueID="5684e570-f3e5-499e-abdc-8346f80faea4" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-24T22:04:55.103+0100" uniqueID="1b792a44-9e37-40ba-b6a5-40a3ba93113a">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-NUS" name="Nurse" elementKind="proper_name" description="Nurse refers to a health care worker that is involved with patient care and treatment. They do not have the same level of medical authority as a medical doctor." timeCreated="2015-11-06T14:14:40.773+0100" lastModified="2015-11-25T16:59:41.360+0100" uniqueID="742a6e9b-fefb-4056-a9b5-e74d49df202d" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-06T14:14:40.898+0100" uniqueID="97266d47-51c4-41ba-b9f5-8d865c5fb744" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-06T14:18:41.160+0100" uniqueID="bc03e9a6-0cd0-4a07-97fb-17d1c3ccc99b">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-EMT" name="Emergency medical technician" elementKind="unspecified" description="The medical personel who travels with the ambulance and is the first responder" timeCreated="2015-11-24T12:22:49.970+0100" lastModified="2015-11-25T17:00:15.605+0100" uniqueID="7cbc3c9d-1f4c-494c-9fda-2bc4b0d81dd2" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-24T12:22:50.053+0100" uniqueID="cfb20cb3-218e-4993-aac4-b81c0d9ad10b" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T17:00:14.147+0100" uniqueID="ffb620f4-4fcd-41a8-b724-dbe76aaeff47">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-MP" name="Medical Professional" elementKind="proper_name" description="Refers to emergency healthcare personnel. This includes ambulance drivers, nurses and doctors." timeCreated="2015-09-28T20:42:44.391+0200" lastModified="2015-11-25T17:01:32.890+0100" uniqueID="f4decb5b-9373-4b46-bf59-d8fa81955695" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-09-28T20:42:44.404+0200" uniqueID="72bcf659-b504-45b7-86c7-4acf1363a818" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-09-28T20:43:37.470+0200" uniqueID="cce480e6-0ae7-4817-bcc8-e98c75b07230">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-ADM" name="Administrator" elementKind="technical_system" description="Administrator is a role which can be given to employees at the PSAP such as operators. It is besides being operator, and allows them to manage OS-OMS." timeCreated="2015-11-20T11:43:48.467+0100" lastModified="2015-11-25T17:02:01.998+0100" uniqueID="acf1fc2d-4497-47b1-b65a-eb0612712a39" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-20T11:43:48.528+0100" uniqueID="157f495d-cca8-4a4d-997b-e12de37ed832" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-20T11:45:11.192+0100" uniqueID="8198b64e-d4c7-4cba-ac31-836558c61394">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-OPR" name="Operator" elementKind="domain_term" description="An operator is typically a nurse working at a PSAP. He/she answers incoming emergency calls and may dispatch resources." timeCreated="2015-11-25T09:46:22.564+0100" lastModified="2015-11-25T17:02:24.486+0100" uniqueID="cd3d8abe-04d8-43c9-bc32-dd08f8a755da" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-25T09:46:22.620+0100" uniqueID="e1434ca1-436b-4773-9f94-fa27d52e4222" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T09:52:28.125+0100" uniqueID="3b78989e-47a7-4295-9bbe-e89eac794096">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-PDR" name="Patient Data Register" elementKind="technical_system" description="Refers to the system in which all EPJ's are stored and the interface to interact with them" timeCreated="2015-11-07T12:40:03.642+0100" lastModified="2015-11-25T17:03:05.334+0100" uniqueID="95a1c13c-159a-461f-9131-f636be1b0493" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-07T12:40:03.673+0100" uniqueID="c7ad632a-f719-4a2f-a17a-2d0a6a6bc47e" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-07T12:42:42.742+0100" uniqueID="0094994f-f9fb-4dee-ba8d-5de9591df446">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <synonyms>EPJ database</synonyms>
+      <synonyms>EPJ system</synonyms>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-PA" name="Patient" elementKind="proper_name" description="Refers to a person currently under medical care." timeCreated="2015-11-06T14:21:33.284+0100" lastModified="2015-11-25T17:03:31.072+0100" uniqueID="75e6ec75-7e0e-481f-8205-2cdd51d072ab" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-06T14:21:33.331+0100" uniqueID="37aaec4e-69d2-484d-8cd6-74953f56e3a7" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-24T22:30:13.642+0100" uniqueID="f75be86f-0a17-459b-8d5c-cccea3fe3943">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-GP" name="General Practioner" elementKind="proper_name" description="Refers to doctors operating with non-life-threatening diseases at a private medical pracsis" timeCreated="2015-11-06T12:19:12.988+0100" lastModified="2015-11-25T17:03:53.232+0100" uniqueID="b55b8052-9cd3-4dae-ae08-48a81ad77476" workPackage="">
+      <commentlist/>
+      <creator name="Mathias  Nielsen" timeCreated="2015-11-06T12:19:13.003+0100" uniqueID="6ad45517-24d7-475b-aa42-fe00cf7d3e55" id="" email="mathias.nielsen@outlook.com" initials="MN">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-06T12:19:56.087+0100" uniqueID="ee9c9729-df12-44a5-add3-5e199d7b598f">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
+      <synonyms>Doctor</synonyms>
+      <synonyms>Health care practitioner</synonyms>
+    </contents>
+    <contents xsi:type="glossary:GlossaryEntry" label="HE-DOC" name="Doctor" elementKind="unspecified" description="Professional medical doctor working in a hospital, medical clinic or private practice." timeCreated="2015-11-25T17:04:45.183+0100" lastModified="2015-11-25T17:05:28.483+0100" uniqueID="facb2023-50d7-42bc-9766-91a430842739" workPackage="">
+      <commentlist/>
+      <creator name="" timeCreated="2015-11-25T17:04:45.191+0100" uniqueID="7367aa61-914b-49e7-b3c6-389c6d05f512" id="" email="" initials="">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </creator>
+      <changeList/>
+      <responsibleUser name="" timeCreated="2015-11-25T17:05:24.521+0100" uniqueID="0e99b820-8206-4224-a46a-265537dc5903">
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+      </responsibleUser>
+      <cost name="Cost" kind=""/>
+      <benefit name="Cost" kind=""/>
     </contents>
   </contents>
   <longDescription>

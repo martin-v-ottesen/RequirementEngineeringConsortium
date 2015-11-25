@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T16:28:01.263+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T17:05:28.485+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
   <creator name="" timeCreated="2015-10-01T22:47:56.548+0200" uniqueID="1cd0d1b4-af8a-4c5e-a565-2460dcc1d0f0" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="StakeholdersCONSORTIUM" timeCreated="2015-11-25T14:52:26.432+0100" lastModified="2015-11-25T16:23:11.775+0100" uniqueID="45c4fe45-ea16-46ae-9f1e-b11099f3faf3">
+  <contents xsi:type="folder:Folder" name="StakeholdersCONSORTIUM" timeCreated="2015-11-25T14:52:26.432+0100" lastModified="2015-11-25T17:01:12.828+0100" uniqueID="45c4fe45-ea16-46ae-9f1e-b11099f3faf3">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="stakeholder:Stakeholder" label="HE-DEV" name="Developers" elementKind="unspecified" description="Dev&#xA;OS-DEV&#xA;HOS-D" timeCreated="2015-11-25T14:52:54.193+0100" lastModified="2015-11-25T15:08:33.100+0100" uniqueID="cfadfa14-1a80-4bd2-b66d-a8a50e7faa36" workPackage="">
@@ -17,29 +17,6 @@
       </creator>
       <changeList/>
       <responsibleUser name="" timeCreated="2015-11-25T15:08:33.098+0100" uniqueID="6aa6c093-030b-4b6a-913b-d11360344fc7">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </responsibleUser>
-      <cost name="Cost" kind=""/>
-      <benefit name="Cost" kind=""/>
-      <stake>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
-      </stake>
-      <engagement>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
-      </engagement>
-      <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
-      </longDescription>
-    </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="HE-INS" name="Insurance Companies" elementKind="unspecified" description="INS" timeCreated="2015-11-25T14:54:09.793+0100" lastModified="2015-11-25T15:08:07.880+0100" uniqueID="c5150ff6-4788-450e-b41b-e31ef1f01a3e" workPackage="">
-      <commentlist/>
-      <creator name="" timeCreated="2015-11-25T14:54:09.793+0100" uniqueID="76aa8053-7cce-4e5e-ba51-4e027dc42574" id="" email="" initials="">
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-      </creator>
-      <changeList/>
-      <responsibleUser name="" timeCreated="2015-11-25T15:08:07.878+0100" uniqueID="09cd0a64-e20a-4630-a7d8-697ad5fd7593">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </responsibleUser>
@@ -193,7 +170,7 @@
         <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="HE-EP" name="Medical Professional" elementKind="unspecified" description="" timeCreated="2015-11-25T15:29:04.520+0100" lastModified="2015-11-25T16:23:11.775+0100" uniqueID="47ca393b-c4e5-4b52-ad49-17db158cc25c" workPackage="">
+    <contents xsi:type="stakeholder:Stakeholder" label="HE-MP" name="Medical Professional" elementKind="unspecified" description="" timeCreated="2015-11-25T15:29:04.520+0100" lastModified="2015-11-25T17:01:12.828+0100" uniqueID="47ca393b-c4e5-4b52-ad49-17db158cc25c" workPackage="">
       <commentlist/>
       <creator name="" timeCreated="2015-11-25T15:29:04.521+0100" uniqueID="6767756f-db55-4168-8dd2-00ab402ad4db" id="" email="" initials="">
         <cost name="Cost" kind=""/>
@@ -216,9 +193,32 @@
         <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="folder:Folder" name="Group Specific" timeCreated="2015-11-25T15:33:39.876+0100" lastModified="2015-11-25T15:58:51.700+0100" uniqueID="9644b423-a3b4-4ac4-ae40-4ff829b010a3">
+    <contents xsi:type="folder:Folder" name="Group Specific" timeCreated="2015-11-25T15:33:39.876+0100" lastModified="2015-11-25T16:54:30.978+0100" uniqueID="9644b423-a3b4-4ac4-ae40-4ff829b010a3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <contents xsi:type="stakeholder:Stakeholder" label="HE-INS" name="Insurance Companies" elementKind="unspecified" description="INS" timeCreated="2015-11-25T14:54:09.793+0100" lastModified="2015-11-25T16:54:30.978+0100" uniqueID="c5150ff6-4788-450e-b41b-e31ef1f01a3e" workPackage="">
+        <commentlist/>
+        <creator name="" timeCreated="2015-11-25T14:54:09.793+0100" uniqueID="76aa8053-7cce-4e5e-ba51-4e027dc42574" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-25T15:08:07.878+0100" uniqueID="09cd0a64-e20a-4630-a7d8-697ad5fd7593">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        </longDescription>
+      </contents>
       <contents xsi:type="stakeholder:Stakeholder" label="HOS-NHA" name="National Hospital Administration" elementKind="unspecified" partOf="0b13c4eb-4d21-4b23-964f-c4a189bf0833" description="The national hospital administrations of the individual member countries are repsonsible for running their countries hospitals and medical systems, and have their own regulations and intersts regarding this. " timeCreated="2015-11-24T08:52:16.304+0100" lastModified="2015-11-25T15:58:51.700+0100" uniqueID="d30ef5f4-468a-4963-a1ff-fae2c0c7a15c" workPackage="">
         <commentlist/>
         <creator name="" timeCreated="2015-11-24T08:52:16.304+0100" uniqueID="35d062c5-c6ae-44c4-92a0-74d4c144c243" id="" email="" initials="">
