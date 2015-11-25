@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T15:58:51.702+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T16:05:16.932+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
   <creator name="" timeCreated="2015-10-01T22:47:56.548+0200" uniqueID="1cd0d1b4-af8a-4c5e-a565-2460dcc1d0f0" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -46,21 +46,13 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-<<<<<<< Updated upstream
-        <fragments xsi:type="text:FormattedText" text="EENA discuss and promote 112 systems and operations throughout EU. They have wide knowledge of PSAP&#xfffd;&#xfffd;&#xfffd;s and their processes, and want influence OS design."/>
-=======
         <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
->>>>>>> Stashed changes
       </stake>
       <engagement>
         <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
       </engagement>
       <longDescription>
-<<<<<<< Updated upstream
-        <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they as a group do not interact with the system in any way. Some members might be operators, but they are a different stakeholder.&lt;br>Power is 2 because they are an recognized association, pertially of operators. Today they have some say in how procedures at PSAP&#xfffd;&#xfffd;&#xfffd;s are defined.&lt;br>Urgency is 3 because they are part of the design decisions made.&lt;br>"/>
-=======
         <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
->>>>>>> Stashed changes
       </longDescription>
     </contents>
     <contents xsi:type="stakeholder:Stakeholder" label="HE-CIT" name="Citizens" elementKind="unspecified" description="Cit&#xA;OS-PAT&#xA;HOS-P" timeCreated="2015-11-25T15:00:45.238+0100" lastModified="2015-11-25T15:07:52.676+0100" uniqueID="24fe18c0-0658-4d6d-85bd-fd06e7f3c64c" workPackage="">
