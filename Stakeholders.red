@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T17:05:28.485+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T17:59:43.858+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
   <creator name="" timeCreated="2015-10-01T22:47:56.548+0200" uniqueID="1cd0d1b4-af8a-4c5e-a565-2460dcc1d0f0" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
