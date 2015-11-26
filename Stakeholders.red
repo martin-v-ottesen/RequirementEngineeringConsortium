@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-25T17:59:43.858+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:relationship="dk.dtu.imm.red.core.element.relationship" xmlns:stakeholder="dk.dtu.imm.red.specificationelements.stakeholder" xmlns:text="dk.dtu.imm.red.core.text" name="Stakeholders.red" timeCreated="2015-10-01T22:47:56.548+0200" lastModified="2015-11-26T03:48:07.275+0100" uniqueID="712af8f8-49af-4016-9075-f93762c8c3da">
   <creator name="" timeCreated="2015-10-01T22:47:56.548+0200" uniqueID="1cd0d1b4-af8a-4c5e-a565-2460dcc1d0f0" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="StakeholdersCONSORTIUM" timeCreated="2015-11-25T14:52:26.432+0100" lastModified="2015-11-25T17:01:12.828+0100" uniqueID="45c4fe45-ea16-46ae-9f1e-b11099f3faf3">
+  <contents xsi:type="folder:Folder" name="StakeholdersCONSORTIUM" timeCreated="2015-11-25T14:52:26.432+0100" lastModified="2015-11-26T02:38:07.231+0100" uniqueID="45c4fe45-ea16-46ae-9f1e-b11099f3faf3">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
     <contents xsi:type="stakeholder:Stakeholder" label="HE-DEV" name="Developers" elementKind="unspecified" description="Dev&#xA;OS-DEV&#xA;HOS-D" timeCreated="2015-11-25T14:52:54.193+0100" lastModified="2015-11-25T15:08:33.100+0100" uniqueID="cfadfa14-1a80-4bd2-b66d-a8a50e7faa36" workPackage="">
@@ -55,7 +55,7 @@
         <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="stakeholder:Stakeholder" label="HE-EU" name="European Union" elementKind="unspecified" description="HOS-EU&#xA;OS-POL&#xA;EU" timeCreated="2015-11-25T15:01:57.376+0100" lastModified="2015-11-25T15:07:26.958+0100" uniqueID="3eb25f35-44e4-460f-8a5c-fc9bb9a68e05" workPackage="">
+    <contents xsi:type="stakeholder:Stakeholder" label="HE-EU" name="European Union" elementKind="unspecified" description="HOS-EU&#xD;&#xA;OS-POL&#xD;&#xA;EU" timeCreated="2015-11-25T15:01:57.376+0100" lastModified="2015-11-26T02:38:07.231+0100" uniqueID="3eb25f35-44e4-460f-8a5c-fc9bb9a68e05" workPackage="">
       <commentlist/>
       <creator name="" timeCreated="2015-11-25T15:01:57.376+0100" uniqueID="2e56d30b-9a28-45b5-8891-47ba63691392" id="" email="" initials="">
         <cost name="Cost" kind=""/>
@@ -69,13 +69,13 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <stake>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
       </stake>
       <engagement>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
       </engagement>
       <longDescription>
-        <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        <fragments xsi:type="text:FormattedText" text="&lt;BR>"/>
       </longDescription>
     </contents>
     <contents xsi:type="stakeholder:Stakeholder" label="HE-EUMC" name="European Union Member Countries" elementKind="unspecified" partOf="3eb25f35-44e4-460f-8a5c-fc9bb9a68e05" description="OS-GOV&#xA;Gov&#xA;HOS-EUMC " timeCreated="2015-11-25T15:04:40.455+0100" lastModified="2015-11-25T15:30:53.516+0100" uniqueID="83d96214-221e-40aa-a116-6161c3ce6cea" workPackage="">
@@ -193,9 +193,34 @@
         <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
       </longDescription>
     </contents>
-    <contents xsi:type="folder:Folder" name="Group Specific" timeCreated="2015-11-25T15:33:39.876+0100" lastModified="2015-11-25T16:54:30.978+0100" uniqueID="9644b423-a3b4-4ac4-ae40-4ff829b010a3">
+    <contents xsi:type="folder:Folder" name="Group Specific" timeCreated="2015-11-25T15:33:39.876+0100" lastModified="2015-11-26T02:09:34.718+0100" uniqueID="9644b423-a3b4-4ac4-ae40-4ff829b010a3">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
+      <contents xsi:type="stakeholder:Stakeholder" label="Sup" name="Suppliers" elementKind="Internal" description="Suppliers and manufacturers of goods, infrastructure and related activities." timeCreated="2015-09-22T12:02:18.155+0200" lastModified="2015-11-26T02:09:24.556+0100" uniqueID="31c1b601-6673-4909-97f5-1a3aa28b36a7" workPackage="" urgency="3" importance="2">
+        <commentlist/>
+        <creator name="" timeCreated="2015-09-22T12:02:18.155+0200" uniqueID="851b26d9-3645-4b41-a21e-5fd72b9051ef" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#40e1c06e-05b6-4b73-8f0f-95b277fc7606"/>
+        <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#77bd1678-8aa1-42b4-855d-fc57fb09160a"/>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-09-24T17:02:52.696+0200" uniqueID="29e6bf0d-04c5-48f4-aec6-1209d67136e7">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="Suppliers are relevant stakeholders because they produce and ship the devices that will be used by all EU citizens. "/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>The quality of the delivered product needs to be up to our defined standard, and they will be engaged by landing a very big customer.&lt;/P>"/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text=""/>
+        </longDescription>
+      </contents>
       <contents xsi:type="stakeholder:Stakeholder" label="HE-INS" name="Insurance Companies" elementKind="unspecified" description="INS" timeCreated="2015-11-25T14:54:09.793+0100" lastModified="2015-11-25T16:54:30.978+0100" uniqueID="c5150ff6-4788-450e-b41b-e31ef1f01a3e" workPackage="">
         <commentlist/>
         <creator name="" timeCreated="2015-11-25T14:54:09.793+0100" uniqueID="76aa8053-7cce-4e5e-ba51-4e027dc42574" id="" email="" initials="">
@@ -219,7 +244,30 @@
           <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </longDescription>
       </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="HOS-NHA" name="National Hospital Administration" elementKind="unspecified" partOf="0b13c4eb-4d21-4b23-964f-c4a189bf0833" description="The national hospital administrations of the individual member countries are repsonsible for running their countries hospitals and medical systems, and have their own regulations and intersts regarding this. " timeCreated="2015-11-24T08:52:16.304+0100" lastModified="2015-11-25T15:58:51.700+0100" uniqueID="d30ef5f4-468a-4963-a1ff-fae2c0c7a15c" workPackage="">
+      <contents xsi:type="stakeholder:Stakeholder" label="HOS-ACM" name="ACM Consultants" elementKind="unspecified" partOf="b114c52d-ea74-4770-a1a7-2aee43dafe9b" description="ACM consultants will be attached to the project in order ot assure that it complies with the relevant EU regulations" timeCreated="2015-11-24T08:57:30.306+0100" lastModified="2015-11-26T02:09:31.961+0100" uniqueID="17e3263b-94b9-43ba-b0a7-51a89a15e325" workPackage="">
+        <commentlist/>
+        <creator name="" timeCreated="2015-11-24T08:57:30.306+0100" uniqueID="4a642ca3-21bc-46d8-9099-d0f3f7fa794a" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-24T08:58:01.085+0100" uniqueID="8d82d34f-1561-43d3-9c25-721fdd7d935c">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Responsible for the compliance of the product. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Overseeing the project. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>The consultants are not affected by the system, but are in part responsible for the outcome. Their power is medium, since they do have a say in how it is implemented regarding the EU regulations. &lt;/FONT>&lt;/SPAN>&lt;/P>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="HOS-NHA" name="National Hospital Administration" elementKind="unspecified" partOf="0b13c4eb-4d21-4b23-964f-c4a189bf0833" description="The national hospital administrations of the individual member countries are repsonsible for running their countries hospitals and medical systems, and have their own regulations and intersts regarding this. " timeCreated="2015-11-24T08:52:16.304+0100" lastModified="2015-11-26T02:09:34.718+0100" uniqueID="d30ef5f4-468a-4963-a1ff-fae2c0c7a15c" workPackage="">
         <commentlist/>
         <creator name="" timeCreated="2015-11-24T08:52:16.304+0100" uniqueID="35d062c5-c6ae-44c4-92a0-74d4c144c243" id="" email="" initials="">
           <cost name="Cost" kind=""/>
@@ -357,57 +405,9 @@
           <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they as a group do not interact with the system in any way. Some members might be operators, but they are a different stakeholder.&lt;br>Power is 2 because they are an recognized association, pertially of operators. Today they have some say in how procedures at PSAP&#xfffd;&#xfffd;&#xfffd;s are defined.&lt;br>Urgency is 3 because they are part of the design decisions made.&lt;br>"/>
         </longDescription>
       </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="Sup" name="Suppliers" elementKind="Internal" description="Suppliers and manufacturers of goods, infrastructure and related activities." timeCreated="2015-09-22T12:02:18.155+0200" lastModified="2015-11-25T15:34:08.664+0100" uniqueID="31c1b601-6673-4909-97f5-1a3aa28b36a7" workPackage="" urgency="3" importance="2">
-        <commentlist/>
-        <creator name="" timeCreated="2015-09-22T12:02:18.155+0200" uniqueID="851b26d9-3645-4b41-a21e-5fd72b9051ef" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#40e1c06e-05b6-4b73-8f0f-95b277fc7606"/>
-        <relatedBy xsi:type="relationship:DependencyRelationship" href="Goals.red#77bd1678-8aa1-42b4-855d-fc57fb09160a"/>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-09-24T17:02:52.696+0200" uniqueID="29e6bf0d-04c5-48f4-aec6-1209d67136e7">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="Suppliers are relevant stakeholders because they produce and ship the devices that will be used by all EU citizens. "/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="&lt;P>The quality of the delivered product needs to be up to our defined standard, and they will be engaged by landing a very big customer.&lt;/P>"/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text=""/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="HOS-ACM" name="ACM Consultants" elementKind="unspecified" partOf="b114c52d-ea74-4770-a1a7-2aee43dafe9b" description="ACM consultants will be attached to the project in order ot assure that it complies with the relevant EU regulations" timeCreated="2015-11-24T08:57:30.306+0100" lastModified="2015-11-25T15:34:06.623+0100" uniqueID="17e3263b-94b9-43ba-b0a7-51a89a15e325" workPackage="">
-        <commentlist/>
-        <creator name="" timeCreated="2015-11-24T08:57:30.306+0100" uniqueID="4a642ca3-21bc-46d8-9099-d0f3f7fa794a" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-24T08:58:01.085+0100" uniqueID="8d82d34f-1561-43d3-9c25-721fdd7d935c">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Responsible for the compliance of the product. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Overseeing the project. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>The consultants are not affected by the system, but are in part responsible for the outcome. Their power is medium, since they do have a say in how it is implemented regarding the EU regulations. &lt;/FONT>&lt;/SPAN>&lt;/P>"/>
-        </longDescription>
-      </contents>
     </contents>
   </contents>
-  <contents xsi:type="folder:Folder" name="Stakeholders" timeCreated="2015-10-02T13:22:28.289+0200" lastModified="2015-11-25T15:58:51.699+0100" uniqueID="abfd50a6-a271-4073-ae4a-caccea726e14" workPackage="" specialType="Stakeholder">
+  <contents xsi:type="folder:Folder" name="Stakeholders" timeCreated="2015-10-02T13:22:28.289+0200" lastModified="2015-11-26T02:04:10.607+0100" uniqueID="abfd50a6-a271-4073-ae4a-caccea726e14" workPackage="" specialType="Stakeholder">
     <creator name="" timeCreated="2015-11-13T16:22:32.020+0100" uniqueID="6ac532b2-1523-4fb7-914f-adb710a61efc">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
@@ -419,32 +419,9 @@
     </responsibleUser>
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="folder:Folder" name="DONE" timeCreated="2015-11-25T14:54:24.598+0100" lastModified="2015-11-25T15:35:11.985+0100" uniqueID="0e6bf86c-7940-48a1-86d0-83cdbee7b140">
+    <contents xsi:type="folder:Folder" name="DONE" timeCreated="2015-11-25T14:54:24.598+0100" lastModified="2015-11-26T02:04:10.607+0100" uniqueID="0e6bf86c-7940-48a1-86d0-83cdbee7b140">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
-      <contents xsi:type="stakeholder:Stakeholder" label="HOS-HS" name="Hospital Staff" elementKind="External" description="" timeCreated="2015-11-24T08:48:53.739+0100" lastModified="2015-11-25T15:35:11.985+0100" uniqueID="fc685c7a-1205-4a46-93ad-d183b22f80ed" workPackage="">
-        <commentlist/>
-        <creator name="" timeCreated="2015-11-24T08:48:53.740+0100" uniqueID="a15c65a4-816a-428c-93c8-67cb3e44ed13" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-24T08:49:42.808+0100" uniqueID="b731d10d-3276-4a20-88c6-4a667842cacb">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>As stated before, the implementation of the system will affect the work of medical staff. Some may be against the new system, since it will change their existing workflow and others may be against it because they dislike technology. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Selected medical staff will be asked to participate in the testing of the system before it is rolled out to all hospitals. &lt;/SPAN>"/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Medical staff has high exposure, since their day to day work routine will be directly affected by the final product.&lt;/SPAN>"/>
-        </longDescription>
-      </contents>
       <contents xsi:type="stakeholder:Stakeholder" label="EM" name="Emergency Personel" elementKind="unspecified" description="Ambulances personel and hospital medical personel excl. doctors" timeCreated="2015-09-22T12:02:59.766+0200" lastModified="2015-11-25T15:31:05.915+0100" uniqueID="3f3884df-e73e-4ff4-984a-147e054e4046" workPackage="" exposure="3" power="3" urgency="3" importance="3">
         <commentlist/>
         <creator name="" timeCreated="2015-09-22T12:02:59.766+0200" uniqueID="88923d54-ee26-4b77-b83f-aa59ca2e78a6" id="" email="" initials="">
@@ -512,29 +489,6 @@
           <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
         </longDescription>
       </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="OS-GOV" name="Governments" elementKind="External" description="Governments the system is deployed within. Could be any EU government, with somewhat different healthcare laws and traditions. Governments and their ministers typically define the high level goals of the system. They also have the final word on the big decisions, but do not necessarily enforce them." timeCreated="2015-10-01T22:50:50.337+0200" lastModified="2015-11-25T15:04:59.045+0100" uniqueID="101cb311-4c3f-438e-9de0-b268d4702eaa" workPackage="" exposure="2" power="3" urgency="2" importance="3">
-        <commentlist/>
-        <creator name="" timeCreated="2015-10-01T22:50:50.337+0200" uniqueID="80167b12-e390-430a-b21a-4b3b0d8aa0a1" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-10-01T22:56:35.680+0200" uniqueID="bb1f23e2-9cb3-461a-8f55-a1b816e770b5">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="Some governments have high influence on system design. By law they have high control of health care systems. They do not use the system directly themselves, but are responsible for the operation."/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="They should be kept satisfied and informed. By lobbying OS benefits, like reduced bottlenecks and possibly saved lives system implementation could increase."/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="In general it is difficult to classify this stakeholder, as their power may vary greatly through different countries. In Denmark, regions have huge power. Some countries don't even have such regions.&lt;br>&lt;br>Exposure is 1 because they will never interact with the system.&lt;br>Power is 3 because they are very involed in the design, and their opinions matter greatly. They migh even fund the system in some way.&lt;br>Urgency is 1 because they might never experience any changes, as they don't use it.&lt;br>"/>
-        </longDescription>
-      </contents>
       <contents xsi:type="stakeholder:Stakeholder" label="Gov" name="Governments" elementKind="External" description="Governments of the individual countries within EU" timeCreated="2015-09-22T10:45:07.069+0200" lastModified="2015-11-25T15:04:52.188+0100" uniqueID="9a0064e8-7d29-48e1-899c-29b6d1c4cd3b" workPackage="" exposure="2" power="3" urgency="3" importance="3">
         <commentlist/>
         <creator name="" timeCreated="2015-09-22T10:45:07.069+0200" uniqueID="9df28776-5798-4378-add9-84be5ae48056" id="" email="" initials="">
@@ -566,74 +520,6 @@
         </engagement>
         <longDescription>
           <fragments xsi:type="text:FormattedText" text=""/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="HOS-EUMC" name="EU Member Country" elementKind="unspecified" partOf="b114c52d-ea74-4770-a1a7-2aee43dafe9b" description="" timeCreated="2015-11-24T08:51:00.916+0100" lastModified="2015-11-25T15:04:46.811+0100" uniqueID="0b13c4eb-4d21-4b23-964f-c4a189bf0833" workPackage="">
-        <creator name="" timeCreated="2015-11-24T08:51:00.916+0100" uniqueID="1ca9f590-b0ef-4cd7-9420-1378ca37d68b" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-24T08:51:35.515+0100" uniqueID="e19efec3-b805-4c84-9696-d6a57cfb330a">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="&lt;P>The EU member countries are interested in getting the best care for their citizens when visiting other countries. This improves the cost of treatment when returning home. &lt;/P>"/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="The EU member countries will primarily be involved in the final phases of the project, when it needs to be accepted, and rolled out in the different member countries. &lt;BR>"/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="The EU member countries has little exposure to this project, since it&amp;nbsp;has small impact on the legislature of the individual countries. The&amp;nbsp;power is medium, as&amp;nbsp;&amp;nbsp;&lt;BR>"/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="HOS-EU" name="European Union" elementKind="External" description="" timeCreated="2015-11-24T08:50:06.034+0100" lastModified="2015-11-25T15:02:30.557+0100" uniqueID="b114c52d-ea74-4770-a1a7-2aee43dafe9b" workPackage="">
-        <commentlist/>
-        <creator name="" timeCreated="2015-11-24T08:50:06.034+0100" uniqueID="1bafa3a6-d1e1-4d23-930d-8d650d2ea773" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-24T08:50:33.125+0100" uniqueID="44645edc-3df7-43d9-ad22-dc853bad21db">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="&lt;P>This project falls in line with the general goal of the EU, which is make the member countries a more honogenous unit, and this project is a part of that general goal. &lt;/P>"/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="The EU is the instigator/owner of this project, and it's the EU that needs to ensure collaboration from the member countries, and ensure that the national hospital departments are in line with it."/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;P>The entire European Union has a general interest in continental collaboration which reinforces their prospects for a united Europe, where a major part would be a united health care system that includes being able to access patient data internationally.&lt;/P>"/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="OS-POL" name="E-Health related EU politicians" elementKind="External" description="Politicians are somewhat derived from both OS-GOV and OS-REGMUN, as they are the people employed there. Politicians can be influenced by lobbyists and voters, wich will influence their decisions related to the system." timeCreated="2015-10-01T22:50:35.760+0200" lastModified="2015-11-25T15:05:49.071+0100" uniqueID="18f6fb63-d29d-4015-85f9-45d3840b84cf" workPackage="" power="3" importance="2">
-        <commentlist/>
-        <creator name="" timeCreated="2015-10-01T22:50:35.760+0200" uniqueID="ed7610be-e413-48da-a973-86e3e46b6158" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-10-01T22:56:18.138+0200" uniqueID="10f6cb38-5866-4d4f-850e-5594ac3cbd9f">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="EU politicians are the project owners, as they have though up the system. They have an interest in wide adoptance and high life saving rate."/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="They should be kept satisfied and informed. By lobbying OS benefits, like reduced bottlenecks and possibly saved lives system implementation could increase."/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they will never interact with the system.&lt;br>Power is 3 because they are very involed in the design, and their opinions matter greatly.&lt;br>Urgency is 1 because they might never experience any changes, as they don't use it.&lt;br>"/>
         </longDescription>
       </contents>
       <contents xsi:type="stakeholder:Stakeholder" label="EU" name="European Parliament" elementKind="Internal" description="Legislators, commisaries, members of parliament and other organs of the EU" timeCreated="2015-09-22T11:57:26.555+0200" lastModified="2015-11-25T15:02:14.694+0100" uniqueID="c0ccf34a-bd64-485d-a71e-df089be03108" workPackage="" exposure="2" power="3" urgency="2" importance="3">
@@ -669,51 +555,6 @@
         </engagement>
         <longDescription>
           <fragments xsi:type="text:FormattedText" text=""/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="HOS-P" name="Patients" elementKind="unspecified" description="" timeCreated="2015-11-24T08:46:59.273+0100" lastModified="2015-11-25T15:00:57.892+0100" uniqueID="a5fba053-6eec-4380-901b-1ba38f25df04" workPackage="">
-        <creator name="" timeCreated="2015-11-24T08:46:59.273+0100" uniqueID="56ec28f1-f66e-4c8c-9b4f-e1fc1d51f3b1" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-24T08:47:33.505+0100" uniqueID="4648a457-d005-4d70-b622-e713d8ea531a">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Patients primary stake is their interest in receiving correct medical care, but also in their ability to access their own information easily, and seeing their past treatments.&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Patients engagement will primarily be after the project is finished.&lt;/SPAN>"/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Patients are directly affected by the project. Not only can they use the solution to access their own data, it also impacts their treatment when hospitalized. However, since only a small subgroup can be questioned when eliciting requirements, and testing the product, their power is little. &lt;/SPAN>"/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="OS-PAT" name="Patients/citizens" elementKind="External" description="These are the people that the system in the very end has to help. They need emergency care, OS has to help operators deliver them exactly that. They have very little influence in the system though, as they do not operate it or hold any relevant knowledge about it. If the system is a failure, they will be the ones influencing OS-POL." timeCreated="2015-10-01T22:49:40.651+0200" lastModified="2015-11-25T15:00:54.589+0100" uniqueID="54772621-ada3-4ec8-b766-5cc274254be8" workPackage="">
-        <commentlist/>
-        <creator name="" timeCreated="2015-10-01T22:49:40.651+0200" uniqueID="5b4c4051-0885-4ddd-99e6-54f121423e06" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-10-01T22:55:48.293+0200" uniqueID="c90ea238-020d-45f6-b731-5d51df0de835">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="They are influenced heavily by the system, as they rely on the emergency response it provides."/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="Citizens have no direct influence of the system. Their oninions may be reflected by politicians. They have some interest in the system, and should be somewhat informed. Since they have no direct power, they cannot be pleased."/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they will never operate the system&lt;br>Power is 1 because they have no direct influence on the system. Many might not even care as long as it &quot;works&quot;&lt;br>Urgency is 1 because they will never see changes or be aware of them.&lt;br>"/>
         </longDescription>
       </contents>
       <contents xsi:type="stakeholder:Stakeholder" label="Cit" name="Citizens" elementKind="External" description="All citizens of the European Union&#xD;&#xA;" timeCreated="2015-09-22T10:18:37.773+0200" lastModified="2015-11-25T15:00:51.404+0100" uniqueID="45fa16ad-b0ab-4d51-8afd-5d9852974c4d" workPackage="" exposure="3" power="3" importance="2">
@@ -753,51 +594,6 @@
         </engagement>
         <longDescription>
           <fragments xsi:type="text:FormattedText" text="&lt;P>How to supply the entire EU with cards in a structured way?&lt;/P>"/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="HOS-D" name="Developers" elementKind="Internal" description="Developers in the development company making the software. " timeCreated="2015-11-24T08:45:29.618+0100" lastModified="2015-11-25T14:54:49.188+0100" uniqueID="53ba9bb5-9993-4af5-a995-dc2e90a42cf8" workPackage="">
-        <creator name="" timeCreated="2015-11-24T08:45:29.618+0100" uniqueID="f88a7232-60c7-4075-9e7c-68be7d549f44" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-11-24T08:49:42.860+0100" uniqueID="e65f8c7d-165b-42f5-a228-7e1a87fc98f8">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Responsible for the implementation of the system. If the system does not perform well, their reputation and future contracts can suffer.&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp; &lt;/SPAN>&lt;/SPAN>"/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Developing, contract awarded by EU public procurement. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Developers are not affected by the system, (other than as regular citizen) but are responsible for implementing it. Thus their power is medium. &lt;/SPAN>"/>
-        </longDescription>
-      </contents>
-      <contents xsi:type="stakeholder:Stakeholder" label="OS-DEV" name="Developers of systems" elementKind="External" description="These are the developers of the system. The ones receiving the system specifications, requirements goals and so on, and in the end have to implement the system as it was intended. They have a professional pride in the system they create, for instance, they would not like if it received bad publicity because of crashes, high latencies or bad usability." timeCreated="2015-10-01T22:58:21.060+0200" lastModified="2015-11-25T14:54:44.242+0100" uniqueID="d7ad0f85-0fe7-40b7-9e3b-641a8b938fb0" workPackage="" exposure="2" urgency="3" importance="2">
-        <commentlist/>
-        <creator name="" timeCreated="2015-10-01T22:58:21.060+0200" uniqueID="ac77fb45-6c4a-4e23-8d73-2679ff662ffb" id="" email="" initials="">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </creator>
-        <changeList/>
-        <responsibleUser name="" timeCreated="2015-10-01T22:58:44.848+0200" uniqueID="815fc10c-2a32-4002-a333-cf13ff1c27a4">
-          <cost name="Cost" kind=""/>
-          <benefit name="Cost" kind=""/>
-        </responsibleUser>
-        <cost name="Cost" kind=""/>
-        <benefit name="Cost" kind=""/>
-        <stake>
-          <fragments xsi:type="text:FormattedText" text="Developing the system is what they get paid for. It has to function properly, so the company they work for get paid and it does not fall back on them. They have to work with the system in long periods."/>
-        </stake>
-        <engagement>
-          <fragments xsi:type="text:FormattedText" text="Must be kept informed about designs, and interfaces at early stages. Explore scenarios and use cases to gain good understanding of each system. They must be involved in decisions and information sharing."/>
-        </engagement>
-        <longDescription>
-          <fragments xsi:type="text:FormattedText" text="Exposure is 2 because they develop and test it, but don't use it in production.&lt;br>Power is 1 because they simply implement what is decided by others&lt;br>Urgency is 3 because developers are the first to receive changes and implement them.&lt;br>"/>
         </longDescription>
       </contents>
       <contents xsi:type="stakeholder:Stakeholder" label="Dev" name="Developers" elementKind="Internal" description="Developers involved in the development of the project" timeCreated="2015-09-22T11:59:30.576+0200" lastModified="2015-11-25T14:54:32.204+0100" uniqueID="6e95e0aa-ce53-4be0-ad11-576c4bcc41d6" workPackage="" exposure="2" power="2" urgency="3" importance="3">
@@ -848,6 +644,210 @@
         </engagement>
         <longDescription>
           <fragments xsi:type="text:FormattedText" text="&lt;br>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="HOS-D" name="Developers" elementKind="Internal" description="Developers in the development company making the software. " timeCreated="2015-11-24T08:45:29.618+0100" lastModified="2015-11-26T02:04:10.607+0100" uniqueID="53ba9bb5-9993-4af5-a995-dc2e90a42cf8" workPackage="">
+        <creator name="" timeCreated="2015-11-24T08:45:29.618+0100" uniqueID="f88a7232-60c7-4075-9e7c-68be7d549f44" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-24T08:49:42.860+0100" uniqueID="e65f8c7d-165b-42f5-a228-7e1a87fc98f8">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Responsible for the implementation of the system. If the system does not perform well, their reputation and future contracts can suffer.&lt;SPAN style=&quot;mso-spacerun: yes&quot;>&amp;nbsp; &lt;/SPAN>&lt;/SPAN>"/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Developing, contract awarded by EU public procurement. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Developers are not affected by the system, (other than as regular citizen) but are responsible for implementing it. Thus their power is medium. &lt;/SPAN>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="HOS-EU" name="European Union" elementKind="External" description="" timeCreated="2015-11-24T08:50:06.034+0100" lastModified="2015-11-26T02:03:59.275+0100" uniqueID="b114c52d-ea74-4770-a1a7-2aee43dafe9b" workPackage="">
+        <commentlist/>
+        <creator name="" timeCreated="2015-11-24T08:50:06.034+0100" uniqueID="1bafa3a6-d1e1-4d23-930d-8d650d2ea773" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-24T08:50:33.125+0100" uniqueID="44645edc-3df7-43d9-ad22-dc853bad21db">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>This project falls in line with the general goal of the EU, which is make the member countries a more honogenous unit, and this project is a part of that general goal. &lt;/P>"/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="The EU is the instigator/owner of this project, and it's the EU that needs to ensure collaboration from the member countries, and ensure that the national hospital departments are in line with it."/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>The entire European Union has a general interest in continental collaboration which reinforces their prospects for a united Europe, where a major part would be a united health care system that includes being able to access patient data internationally.&lt;/P>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="HOS-P" name="Patients" elementKind="unspecified" description="" timeCreated="2015-11-24T08:46:59.273+0100" lastModified="2015-11-26T02:03:55.604+0100" uniqueID="a5fba053-6eec-4380-901b-1ba38f25df04" workPackage="">
+        <creator name="" timeCreated="2015-11-24T08:46:59.273+0100" uniqueID="56ec28f1-f66e-4c8c-9b4f-e1fc1d51f3b1" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-24T08:47:33.505+0100" uniqueID="4648a457-d005-4d70-b622-e713d8ea531a">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>Patients primary stake is their interest in receiving correct medical care, but also in their ability to access their own information easily, and seeing their past treatments.&lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Patients engagement will primarily be after the project is finished.&lt;/SPAN>"/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Patients are directly affected by the project. Not only can they use the solution to access their own data, it also impacts their treatment when hospitalized. However, since only a small subgroup can be questioned when eliciting requirements, and testing the product, their power is little. &lt;/SPAN>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="HOS-EUMC" name="EU Member Country" elementKind="unspecified" partOf="b114c52d-ea74-4770-a1a7-2aee43dafe9b" description="" timeCreated="2015-11-24T08:51:00.916+0100" lastModified="2015-11-26T02:04:01.740+0100" uniqueID="0b13c4eb-4d21-4b23-964f-c4a189bf0833" workPackage="">
+        <creator name="" timeCreated="2015-11-24T08:51:00.916+0100" uniqueID="1ca9f590-b0ef-4cd7-9420-1378ca37d68b" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-24T08:51:35.515+0100" uniqueID="e19efec3-b805-4c84-9696-d6a57cfb330a">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="&lt;P>The EU member countries are interested in getting the best care for their citizens when visiting other countries. This improves the cost of treatment when returning home. &lt;/P>"/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="The EU member countries will primarily be involved in the final phases of the project, when it needs to be accepted, and rolled out in the different member countries. &lt;BR>"/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="The EU member countries has little exposure to this project, since it&amp;nbsp;has small impact on the legislature of the individual countries. The&amp;nbsp;power is medium, as&amp;nbsp;&amp;nbsp;&lt;BR>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="HOS-HS" name="Hospital Staff" elementKind="External" description="" timeCreated="2015-11-24T08:48:53.739+0100" lastModified="2015-11-26T02:04:05.245+0100" uniqueID="fc685c7a-1205-4a46-93ad-d183b22f80ed" workPackage="">
+        <commentlist/>
+        <creator name="" timeCreated="2015-11-24T08:48:53.740+0100" uniqueID="a15c65a4-816a-428c-93c8-67cb3e44ed13" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-11-24T08:49:42.808+0100" uniqueID="b731d10d-3276-4a20-88c6-4a667842cacb">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="&lt;P class=MsoNormal style=&quot;MARGIN: 0cm 0cm 10pt&quot;>&lt;SPAN lang=EN-US style=&quot;mso-ansi-language: EN-US&quot;>&lt;FONT size=3 face=Calibri>As stated before, the implementation of the system will affect the work of medical staff. Some may be against the new system, since it will change their existing workflow and others may be against it because they dislike technology. &lt;/FONT>&lt;?xml:namespace prefix = &quot;o&quot; ns = &quot;urn:schemas-microsoft-com:office:office&quot; />&lt;o:p>&lt;/o:p>&lt;/SPAN>&lt;/P>"/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Selected medical staff will be asked to participate in the testing of the system before it is rolled out to all hospitals. &lt;/SPAN>"/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="&lt;SPAN lang=EN-US style='FONT-SIZE: 11pt; FONT-FAMILY: &quot;Calibri&quot;,&quot;sans-serif&quot;; LINE-HEIGHT: 115%; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: &quot;Times New Roman&quot;; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA'>Medical staff has high exposure, since their day to day work routine will be directly affected by the final product.&lt;/SPAN>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="OS-PAT" name="Patients/citizens" elementKind="External" description="These are the people that the system in the very end has to help. They need emergency care, OS has to help operators deliver them exactly that. They have very little influence in the system though, as they do not operate it or hold any relevant knowledge about it. If the system is a failure, they will be the ones influencing OS-POL." timeCreated="2015-10-01T22:49:40.651+0200" lastModified="2015-11-26T02:03:52.400+0100" uniqueID="54772621-ada3-4ec8-b766-5cc274254be8" workPackage="">
+        <commentlist/>
+        <creator name="" timeCreated="2015-10-01T22:49:40.651+0200" uniqueID="5b4c4051-0885-4ddd-99e6-54f121423e06" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-01T22:55:48.293+0200" uniqueID="c90ea238-020d-45f6-b731-5d51df0de835">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="They are influenced heavily by the system, as they rely on the emergency response it provides."/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="Citizens have no direct influence of the system. Their oninions may be reflected by politicians. They have some interest in the system, and should be somewhat informed. Since they have no direct power, they cannot be pleased."/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they will never operate the system&lt;br>Power is 1 because they have no direct influence on the system. Many might not even care as long as it &quot;works&quot;&lt;br>Urgency is 1 because they will never see changes or be aware of them.&lt;br>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="OS-GOV" name="Governments" elementKind="External" description="Governments the system is deployed within. Could be any EU government, with somewhat different healthcare laws and traditions. Governments and their ministers typically define the high level goals of the system. They also have the final word on the big decisions, but do not necessarily enforce them." timeCreated="2015-10-01T22:50:50.337+0200" lastModified="2015-11-26T02:03:50.247+0100" uniqueID="101cb311-4c3f-438e-9de0-b268d4702eaa" workPackage="" exposure="2" power="3" urgency="2" importance="3">
+        <commentlist/>
+        <creator name="" timeCreated="2015-10-01T22:50:50.337+0200" uniqueID="80167b12-e390-430a-b21a-4b3b0d8aa0a1" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-01T22:56:35.680+0200" uniqueID="bb1f23e2-9cb3-461a-8f55-a1b816e770b5">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="Some governments have high influence on system design. By law they have high control of health care systems. They do not use the system directly themselves, but are responsible for the operation."/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="They should be kept satisfied and informed. By lobbying OS benefits, like reduced bottlenecks and possibly saved lives system implementation could increase."/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="In general it is difficult to classify this stakeholder, as their power may vary greatly through different countries. In Denmark, regions have huge power. Some countries don't even have such regions.&lt;br>&lt;br>Exposure is 1 because they will never interact with the system.&lt;br>Power is 3 because they are very involed in the design, and their opinions matter greatly. They migh even fund the system in some way.&lt;br>Urgency is 1 because they might never experience any changes, as they don't use it.&lt;br>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="OS-POL" name="E-Health related EU politicians" elementKind="External" description="Politicians are somewhat derived from both OS-GOV and OS-REGMUN, as they are the people employed there. Politicians can be influenced by lobbyists and voters, wich will influence their decisions related to the system." timeCreated="2015-10-01T22:50:35.760+0200" lastModified="2015-11-26T02:03:47.374+0100" uniqueID="18f6fb63-d29d-4015-85f9-45d3840b84cf" workPackage="" power="3" importance="2">
+        <commentlist/>
+        <creator name="" timeCreated="2015-10-01T22:50:35.760+0200" uniqueID="ed7610be-e413-48da-a973-86e3e46b6158" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-01T22:56:18.138+0200" uniqueID="10f6cb38-5866-4d4f-850e-5594ac3cbd9f">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="EU politicians are the project owners, as they have though up the system. They have an interest in wide adoptance and high life saving rate."/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="They should be kept satisfied and informed. By lobbying OS benefits, like reduced bottlenecks and possibly saved lives system implementation could increase."/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="Exposure is 1 because they will never interact with the system.&lt;br>Power is 3 because they are very involed in the design, and their opinions matter greatly.&lt;br>Urgency is 1 because they might never experience any changes, as they don't use it.&lt;br>"/>
+        </longDescription>
+      </contents>
+      <contents xsi:type="stakeholder:Stakeholder" label="OS-DEV" name="Developers of systems" elementKind="External" description="These are the developers of the system. The ones receiving the system specifications, requirements goals and so on, and in the end have to implement the system as it was intended. They have a professional pride in the system they create, for instance, they would not like if it received bad publicity because of crashes, high latencies or bad usability." timeCreated="2015-10-01T22:58:21.060+0200" lastModified="2015-11-26T02:03:44.002+0100" uniqueID="d7ad0f85-0fe7-40b7-9e3b-641a8b938fb0" workPackage="" exposure="2" urgency="3" importance="2">
+        <commentlist/>
+        <creator name="" timeCreated="2015-10-01T22:58:21.060+0200" uniqueID="ac77fb45-6c4a-4e23-8d73-2679ff662ffb" id="" email="" initials="">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </creator>
+        <changeList/>
+        <responsibleUser name="" timeCreated="2015-10-01T22:58:44.848+0200" uniqueID="815fc10c-2a32-4002-a333-cf13ff1c27a4">
+          <cost name="Cost" kind=""/>
+          <benefit name="Cost" kind=""/>
+        </responsibleUser>
+        <cost name="Cost" kind=""/>
+        <benefit name="Cost" kind=""/>
+        <stake>
+          <fragments xsi:type="text:FormattedText" text="Developing the system is what they get paid for. It has to function properly, so the company they work for get paid and it does not fall back on them. They have to work with the system in long periods."/>
+        </stake>
+        <engagement>
+          <fragments xsi:type="text:FormattedText" text="Must be kept informed about designs, and interfaces at early stages. Explore scenarios and use cases to gain good understanding of each system. They must be involved in decisions and information sharing."/>
+        </engagement>
+        <longDescription>
+          <fragments xsi:type="text:FormattedText" text="Exposure is 2 because they develop and test it, but don't use it in production.&lt;br>Power is 1 because they simply implement what is decided by others&lt;br>Urgency is 3 because developers are the first to receive changes and implement them.&lt;br>"/>
         </longDescription>
       </contents>
     </contents>
