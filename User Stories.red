@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" name="User Stories.red" timeCreated="2015-11-06T13:15:53.255+0100" lastModified="2015-11-25T17:59:43.905+0100" uniqueID="4039a052-8941-4521-bb72-4bc0a078693f">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:ucScenario="dk.dtu.imm.red.specificationelements.ucscenario" name="User Stories.red" timeCreated="2015-11-06T13:15:53.255+0100" lastModified="2015-11-26T03:42:31.471+0100" uniqueID="4039a052-8941-4521-bb72-4bc0a078693f">
   <creator name="" timeCreated="2015-11-06T13:15:53.255+0100" uniqueID="560f880d-7a67-4b2b-b1a9-4a4e0b496450" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-11-06T13:21:08.840+0100" lastModified="2015-11-25T17:59:43.856+0100" uniqueID="3e314dda-ffb5-4a5b-baeb-c09e9c23d311">
+  <contents xsi:type="folder:Folder" name="Scenarios" timeCreated="2015-11-06T13:21:08.840+0100" lastModified="2015-11-26T03:42:31.415+0100" uniqueID="3e314dda-ffb5-4a5b-baeb-c09e9c23d311">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
-    <contents xsi:type="ucScenario:Scenario" label="Allergy" name="An allergic reaction" elementKind="unspecified" description="" timeCreated="2015-11-25T13:35:58.370+0100" lastModified="2015-11-25T17:59:43.856+0100" uniqueID="e02d6e93-8ed4-490f-b532-7280857b0a55" workPackage="">
+    <contents xsi:type="ucScenario:Scenario" label="Allergy" name="An allergic reaction" elementKind="unspecified" description="Rudolph who is unknowingly allergic to insect bites is relaxing in the local park when he is stung by a bee and gets a severe allergic reaction.&#xD;&#xA;Luckily Peter who has some allergies of his own is there and acts fast by calling the emergency call center which dispatches an ambulance to get Rudolph to the nearest hospital.&#xD;&#xA;While at the hospital Rudolph develops some complications the doctors haven't experienced before it is therefore good that they have access to a online diagnostics system that helps them treat him.&#xD;&#xA;After a short stay Rudolph is released now with a new allergy added to his eHealth card." timeCreated="2015-11-25T13:35:58.370+0100" lastModified="2015-11-26T03:42:31.415+0100" uniqueID="e02d6e93-8ed4-490f-b532-7280857b0a55" workPackage="">
       <creator name="" timeCreated="2015-11-25T13:35:58.370+0100" uniqueID="d50ef5cf-17b9-4436-9ffa-80ebe76b4263" id="" email="" initials="">
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
