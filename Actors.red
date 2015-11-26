@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-11-06T13:18:18.545+0100" lastModified="2015-11-26T01:22:38.546+0100" uniqueID="fcb978f2-f7c1-4ddb-a64a-19fd948233f6">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" name="Actors.red" timeCreated="2015-11-06T13:18:18.545+0100" lastModified="2015-11-26T01:26:57.786+0100" uniqueID="fcb978f2-f7c1-4ddb-a64a-19fd948233f6">
   <creator name="" timeCreated="2015-11-06T13:18:18.545+0100" uniqueID="0ebba6bf-a7d9-4e73-bd66-e3327450ae01" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
   </creator>
   <cost name="Cost" kind=""/>
   <benefit name="Cost" kind=""/>
-  <contents xsi:type="folder:Folder" name="ActorsCONSORTIUM" timeCreated="2015-11-25T16:05:13.360+0100" lastModified="2015-11-26T01:17:32.374+0100" uniqueID="6f0a66f7-3b5c-4b9c-a346-f61791ef520a">
+  <contents xsi:type="folder:Folder" name="ActorsCONSORTIUM" timeCreated="2015-11-25T16:05:13.360+0100" lastModified="2015-11-26T01:24:55.534+0100" uniqueID="6f0a66f7-3b5c-4b9c-a346-f61791ef520a">
     <commentlist/>
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -83,7 +83,7 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="configuration:Actor" iconURI="icons/system.png" label="HE-PDR" name="Patient Data Register" elementKind="system" description="AC5&#xD;&#xA;HOS-EEPR" timeCreated="2015-11-25T16:11:07.029+0100" lastModified="2015-11-26T01:12:35.065+0100" uniqueID="6d3ba480-ca5c-479d-8d50-ae75a4006dff" workPackage="" code="">
+    <contents xsi:type="configuration:Actor" iconURI="icons/system.png" label="HE-PDR" name="Patient Data Registry" elementKind="system" description="AC5&#xD;&#xA;HOS-EEPR" timeCreated="2015-11-25T16:11:07.029+0100" lastModified="2015-11-26T01:24:55.534+0100" uniqueID="6d3ba480-ca5c-479d-8d50-ae75a4006dff" workPackage="" code="">
       <commentlist/>
       <creator name="" timeCreated="2015-11-25T16:11:07.029+0100" uniqueID="1fbe201f-57ce-46b3-ad94-a39a6c81b407" id="" email="" initials="">
         <cost name="Cost" kind=""/>
@@ -97,7 +97,7 @@
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
     </contents>
-    <contents xsi:type="folder:Folder" name="Group Specific" timeCreated="2015-11-25T16:15:22.476+0100" lastModified="2015-11-26T01:17:16.927+0100" uniqueID="ec6be01d-1b03-44b4-a8a8-687ad212bfd8">
+    <contents xsi:type="folder:Folder" name="Group Specific" timeCreated="2015-11-25T16:15:22.476+0100" lastModified="2015-11-26T01:24:31.208+0100" uniqueID="ec6be01d-1b03-44b4-a8a8-687ad212bfd8">
       <cost name="Cost" kind=""/>
       <benefit name="Cost" kind=""/>
       <contents xsi:type="configuration:Actor" iconURI="icons/actor.png" label="AC3" name="Supporter" elementKind="person" description="" timeCreated="2015-11-24T21:52:48.747+0100" lastModified="2015-11-25T16:26:15.140+0100" uniqueID="fce1da56-1f6a-4902-b59a-e57634317dce" workPackage="" code="">
@@ -247,7 +247,7 @@
         <cost name="Cost" kind=""/>
         <benefit name="Cost" kind=""/>
       </contents>
-      <contents xsi:type="configuration:Actor" iconURI="icons/system.png" label="HOS-DS" name="Diagni&#xf3;stics System (A1)" elementKind="system" description="" timeCreated="2015-11-24T09:05:32.356+0100" lastModified="2015-11-25T16:18:19.840+0100" uniqueID="f868a8d6-9238-4c32-b521-bfe7f777bd94" workPackage="" code="">
+      <contents xsi:type="configuration:Actor" iconURI="icons/system.png" label="HOS-DS" name="Diagnostics System (A1)" elementKind="system" description="" timeCreated="2015-11-24T09:05:32.356+0100" lastModified="2015-11-26T01:24:31.208+0100" uniqueID="f868a8d6-9238-4c32-b521-bfe7f777bd94" workPackage="" code="">
         <creator name="" timeCreated="2015-11-24T09:05:32.356+0100" uniqueID="820951b7-8179-46c6-a56a-10701471166c" id="" email="" initials="">
           <cost name="Cost" kind=""/>
           <benefit name="Cost" kind=""/>
