@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-11-06T13:18:46.059+0100" lastModified="2015-11-26T01:06:02.531+0100" uniqueID="83e941e0-57e4-4e2e-abff-e7d3ee88673a">
+<file:File xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="dk.dtu.imm.red.specificationelements.configuration" xmlns:context="dk.dtu.imm.red.visualmodeling.visualmodel.context" xmlns:file="dk.dtu.imm.red.core.file" xmlns:folder="dk.dtu.imm.red.core.folder" xmlns:text="dk.dtu.imm.red.core.text" xmlns:visualmodel="dk.dtu.imm.red.visualmodeling" name="Diagrams.red" timeCreated="2015-11-06T13:18:46.059+0100" lastModified="2015-11-26T01:22:38.554+0100" uniqueID="83e941e0-57e4-4e2e-abff-e7d3ee88673a">
   <creator name="" timeCreated="2015-11-06T13:18:46.060+0100" uniqueID="ecddb04a-ed22-407e-8a19-ebce88c280ed" id="" email="" initials="">
     <cost name="Cost" kind=""/>
     <benefit name="Cost" kind=""/>
@@ -24,7 +24,7 @@
       <VisualDiagram Location="0,0" Bounds="0,0" Diagram="//@contents.0/@contents.0/@VisualDiagram" DiagramType="Context">
         <Elements xsi:type="context:VisualSystem" Location="237,73" Bounds="202,70" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Name="Hospital Interface (A2)" visualID="_AT7XcISUEeWdUeYrlUA-1g">
           <Elements xsi:type="context:VisualPort" Location="0,40" Bounds="30,30" Parent="_AT7XcISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.9" IsSketchy="true" visualID="_f9a4QISVEeWdUeYrlUA-1g"/>
-          <Elements xsi:type="context:VisualPort" Location="172,40" Bounds="30,30" Parent="_AT7XcISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.11" IsSketchy="true" visualID="_vf-nMISVEeWdUeYrlUA-1g"/>
+          <Elements xsi:type="context:VisualPort" Location="172,40" Bounds="30,30" Parent="_AT7XcISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.13" IsSketchy="true" visualID="_vf-nMISVEeWdUeYrlUA-1g"/>
           <Elements xsi:type="context:VisualPort" Location="67,40" Bounds="30,30" Parent="_AT7XcISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.2" IsSketchy="true" visualID="_FEeqQIbiEeWdUeYrlUA-1g"/>
           <Elements xsi:type="context:VisualPort" Location="101,40" Bounds="30,30" Parent="_AT7XcISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.5" IsSketchy="true" visualID="_BWD10I2HEeWg4YWvV1kZaw"/>
           <Elements xsi:type="context:VisualPort" Location="136,40" Bounds="30,30" Parent="_AT7XcISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.6" IsSketchy="true" visualID="_gCqNkJKLEeWVKviyr6gYOQ"/>
@@ -36,7 +36,7 @@
           <Elements xsi:type="context:VisualPort" Location="108,36" Bounds="30,30" Parent="_a_LSEISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.12" IsSketchy="true" visualID="_7J0_MISVEeWdUeYrlUA-1g"/>
           <Elements xsi:type="context:VisualPort" Location="37,36" Bounds="30,30" Parent="_a_LSEISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.3" IsSketchy="true" visualID="_G4-GsIbiEeWdUeYrlUA-1g"/>
           <Elements xsi:type="context:VisualPort" Location="182,36" Bounds="30,30" Parent="_a_LSEISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.4" IsSketchy="true" visualID="_CCPmYI2HEeWg4YWvV1kZaw"/>
-          <Elements xsi:type="context:VisualPort" Location="72,36" Bounds="30,30" Parent="_a_LSEISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.10 //@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.13" IsSketchy="true" visualID="_sda9kI2HEeWg4YWvV1kZaw"/>
+          <Elements xsi:type="context:VisualPort" Location="72,36" Bounds="30,30" Parent="_a_LSEISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.10 //@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.11" IsSketchy="true" visualID="_sda9kI2HEeWg4YWvV1kZaw"/>
           <Elements xsi:type="context:VisualPort" Location="144,36" Bounds="30,30" Parent="_a_LSEISUEeWdUeYrlUA-1g" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.7" IsSketchy="true" visualID="_yXMU4JKLEeWVKviyr6gYOQ"/>
         </Elements>
         <Elements xsi:type="context:VisualSystem" Location="5,9" Bounds="200,166" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Name="Central Patient Pecords" visualID="_k3sPUISUEeWdUeYrlUA-1g">
@@ -52,14 +52,14 @@
         <Elements xsi:type="context:VisualSystem" Location="237,9" Bounds="168,58" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Name="Diagnostics Systm (A1)" visualID="_6-Qb4JKMEeWVKviyr6gYOQ">
           <Elements xsi:type="context:VisualPort" Location="0,28" Bounds="30,30" Parent="_6-Qb4JKMEeWVKviyr6gYOQ" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.9" IsSketchy="true" visualID="_RogmQJKNEeWVKviyr6gYOQ"/>
         </Elements>
-        <Elements xsi:type="context:VisualContextActor" Location="453,87" Bounds="60,70" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.11" IsSketchy="true" visualID="_p7B_4JKWEeWqrIzM9kbFZg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor" actorKind="Group">
-          <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#8af4b16f-d2ce-41e5-ab85-3728a9fe0d4c"/>
+        <Elements xsi:type="context:VisualSystem" Location="3,260" Bounds="178,70" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Name="Emergancy Call Center (A3)" visualID="_CvU8QJPREeWlAN1sNZpapw">
+          <Elements xsi:type="context:VisualPort" Location="148,40" Bounds="30,30" Parent="_CvU8QJPREeWlAN1sNZpapw" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.11" IsSketchy="true" visualID="_Qlpy4JPREeWlAN1sNZpapw"/>
         </Elements>
-        <Elements xsi:type="context:VisualContextActor" Location="477,249" Bounds="60,70" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.12" IsSketchy="true" visualID="_uW-mwJKWEeWqrIzM9kbFZg" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
+        <Elements xsi:type="context:VisualContextActor" Location="481,262" Bounds="60,70" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.12" Name="Emergency Medical Technician" visualID="_O_KrUJPTEeWCFYXCtACedA" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor">
           <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#4ee550b7-ee7e-4325-af29-265602446572"/>
         </Elements>
-        <Elements xsi:type="context:VisualSystem" Location="3,260" Bounds="178,70" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Name="Emergancy Call Center (A3)" visualID="_CvU8QJPREeWlAN1sNZpapw">
-          <Elements xsi:type="context:VisualPort" Location="148,40" Bounds="30,30" Parent="_CvU8QJPREeWlAN1sNZpapw" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.13" IsSketchy="true" visualID="_Qlpy4JPREeWlAN1sNZpapw"/>
+        <Elements xsi:type="context:VisualContextActor" Location="461,96" Bounds="60,70" Parent="//@contents.0/@contents.0/@VisualDiagram" Diagram="//@contents.0/@contents.0/@VisualDiagram" Connections="//@contents.0/@contents.0/@VisualDiagram/@DiagramConnections.13" Name="Medical Professional" visualID="_e8wJYJPTEeWCFYXCtACedA" IsLinkedToElement="true" SpecificationElementType="dk.dtu.imm.red.specificationelements.configuration.Actor" actorKind="Group">
+          <SpecificationElement xsi:type="configuration:Actor" href="Actors.red#2c93e6c4-64e3-4556-8fe9-c278f1875aff"/>
         </Elements>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Direction="Bidirectional" Name="" Type="Association"/>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Direction="Bidirectional" Name="" Type="Association">
@@ -72,8 +72,8 @@
           <Bendpoints>317,161</Bendpoints>
         </DiagramConnections>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_G4-GsIbiEeWdUeYrlUA-1g" Target="_XGJ8oISVEeWdUeYrlUA-1g" Direction="Bidirectional" Name="" Type="Association">
-          <Bendpoints>290,344</Bendpoints>
-          <Bendpoints>190,344</Bendpoints>
+          <Bendpoints>291,340</Bendpoints>
+          <Bendpoints>191,340</Bendpoints>
         </DiagramConnections>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_CCPmYI2HEeWg4YWvV1kZaw" Target="_--gIkI2GEeWg4YWvV1kZaw" Direction="Bidirectional" Name="" Type="Association">
           <Bendpoints>462,313</Bendpoints>
@@ -106,15 +106,15 @@
           <Bendpoints>225,53</Bendpoints>
         </DiagramConnections>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Direction="Bidirectional" Name="" Type="Association"/>
-        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_vf-nMISVEeWdUeYrlUA-1g" Target="_p7B_4JKWEeWqrIzM9kbFZg" Direction="Bidirectional" Name="" Type="Association"/>
-        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_7J0_MISVEeWdUeYrlUA-1g" Target="_uW-mwJKWEeWqrIzM9kbFZg" Direction="Bidirectional" Name="" Type="Association">
-          <Bendpoints>363,351</Bendpoints>
-          <Bendpoints>505,351</Bendpoints>
-        </DiagramConnections>
         <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_sda9kI2HEeWg4YWvV1kZaw" Target="_Qlpy4JPREeWlAN1sNZpapw">
-          <Bendpoints>327,354</Bendpoints>
-          <Bendpoints>167,354</Bendpoints>
+          <Bendpoints>327,350</Bendpoints>
+          <Bendpoints>167,350</Bendpoints>
         </DiagramConnections>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_7J0_MISVEeWdUeYrlUA-1g" Target="_O_KrUJPTEeWCFYXCtACedA" Direction="Bidirectional" Name="" Type="Association">
+          <Bendpoints>361,348</Bendpoints>
+          <Bendpoints>513,348</Bendpoints>
+        </DiagramConnections>
+        <DiagramConnections xsi:type="visualmodel:VisualConnection" Source="_vf-nMISVEeWdUeYrlUA-1g" Target="_e8wJYJPTEeWCFYXCtACedA" Direction="Bidirectional" Name="" Type="Association"/>
       </VisualDiagram>
     </contents>
     <contents xsi:type="visualmodel:Diagram" label="OS-CD" name="Context Diagram" elementKind="unspecified" description="" timeCreated="2015-11-25T15:26:25.100+0100" lastModified="2015-11-25T15:26:25.123+0100" uniqueID="7fe5132d-ec78-4ee4-bae1-522e8c07f41d" workPackage="">
